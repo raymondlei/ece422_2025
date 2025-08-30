@@ -1,0 +1,17 @@
+This template configured the following pins and peripherals:
+
+
+RB10: GPIO output, for LED, active low
+RB11: GPIO output, for LED, active low
+RB12: GPIO output, for LED, active low
+
+RB5: GPIO input, for button, active low
+
+RB2: UART peripheral, UART_RX (receive)
+RB3: UART peripheral, UART_TX (transmit)
+UART baudrate: 19200
+
+Program behavior:
+1. Transmit "UART demo" via UART TX (RB3)
+2. Echo ASCII char received from UART RX (RB2)
+3. Toggle GPIO RB12 (for LED) at 1 Hz
