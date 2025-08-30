@@ -1,0 +1,2 @@
+# ignore all .exe files from being checked in
+*.exe
