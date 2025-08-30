@@ -8,7 +8,6 @@
 void ringbuf_init(ringbuf_st* obj, uint16_t array_size)
 {
     //TODO: initialize array to 0
-    
 }
 
 void ringbuf_addItem(ringbuf_st* obj, uint16_t item)
@@ -28,7 +27,8 @@ float ringbuf_computeAverage(ringbuf_st* obj)
     return 0.0F;
 }
 
-bool ringbuf_isFull(void)
+bool ringbuf_isFull(ringbuf_st* obj)
 {
+    //TODO: determine if the ring buffer is full.
     return false;
 }

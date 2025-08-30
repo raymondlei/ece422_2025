@@ -19,5 +19,5 @@ void ringbuf_init(ringbuf_st* obj, uint16_t array_size);
 void ringbuf_addItem(ringbuf_st* obj, uint16_t item);
 uint32_t ringbuf_computeTotal(ringbuf_st* obj);
 float ringbuf_computeAverage(ringbuf_st* obj);
-
+bool ringbuf_isFull(ringbuf_st* obj);
 #endif
