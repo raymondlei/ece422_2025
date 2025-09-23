@@ -1,0 +1,3111 @@
+Microchip Technology Inc, v2.10 (B)
+
+Tool Name:
+  c:\program files\microchip\xc16\v2.10\bin\bin\..\bin/elf-ld.exe
+
+Command:
+  -p24FJ128GA202 \
+  --mdfp=C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC24F-GA-GB_DFP/1.10.375/xc16 \
+  -o \
+  dist/default/production/lab03_template.X.production.elf \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/.. \
+  -LC:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC24F-GA-GB_DFP/1.10.375/xc16/bin/../support/PIC24F/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../lib \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld \
+  build/default/production/src/app/taskBlinky.o \
+  build/default/production/src/app/taskSerial.o \
+  build/default/production/src/app/taskPwm.o \
+  build/default/production/FreeRTOS/Source/croutine.o \
+  build/default/production/FreeRTOS/Source/event_groups.o \
+  build/default/production/FreeRTOS/Source/list.o \
+  build/default/production/FreeRTOS/Source/queue.o \
+  build/default/production/FreeRTOS/Source/stream_buffer.o \
+  build/default/production/FreeRTOS/Source/tasks.o \
+  build/default/production/FreeRTOS/Source/timers.o \
+  build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o \
+  build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o \
+  build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.o \
+  build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC.o \
+  build/default/production/mcc_generated_files/traps.o \
+  build/default/production/mcc_generated_files/pin_manager.o \
+  build/default/production/mcc_generated_files/system.o \
+  build/default/production/mcc_generated_files/clock.o \
+  build/default/production/mcc_generated_files/mcc.o \
+  build/default/production/mcc_generated_files/interrupt_manager.o \
+  build/default/production/mcc_generated_files/uart1.o \
+  build/default/production/mcc_generated_files/oc3.o \
+  build/default/production/mcc_generated_files/oc2.o \
+  build/default/production/mcc_generated_files/oc1.o \
+  build/default/production/mcc_generated_files/tmr2.o \
+  build/default/production/src/main.o \
+  build/default/production/src/rtos_hooks.o \
+  --local-stack \
+  --defsym=__MPLAB_BUILD=1 \
+  -Tp24FJ128GA202.gld.00 \
+  --stack=16 \
+  --check-sections \
+  --data-init \
+  --pack-data \
+  --handles \
+  --isr \
+  --no-gc-sections \
+  --fill-upper=0 \
+  --stackguard=16 \
+  --no-force-link \
+  --smart-io \
+  -Map=dist/default/production/lab03_template.X.production.map \
+  --report-mem \
+  --memorysummary \
+  dist/default/production/memoryfile.xml \
+  -start-group \
+  --library=c99-pic30-elf \
+  --library=m-elf \
+  --library=c99-elf \
+  -end-group \
+
+
+Optional library libpPIC24Fxxx.a not found
+Archive member included because of file (symbol)
+
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_extended24.o)
+                              (__resetPRI)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(data_init_24.o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_extended24.o) (__data_init_da)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt_start_mode_normalda.Meo)
+                              (__crt_start_mode_normal)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o)
+                              build/default/production/src/app/taskSerial.o (__printf_cdnopsuxX)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_doux.DA_o)
+                              build/default/production/src/app/taskSerial.o (__printf_cdnopuxX)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcmp.DA_o)
+                              build/default/production/FreeRTOS/Source/tasks.o (_memcmp)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcpy.DA_o)
+                              build/default/production/FreeRTOS/Source/queue.o (_memcpy)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memset.DA_o)
+                              build/default/production/FreeRTOS/Source/stream_buffer.o (_memset)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(puts.DA_o)
+                              build/default/production/src/app/taskSerial.o (_puts)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o) (__stdout)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_d.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o) (___fmt_d_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_o.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o) (___fmt_o_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_s.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o) (___fmt_s_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_u.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_d.DA_o) (___cvt_u)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_x.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o) (___fmt_x_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vfprintf.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o) (___vfprintf)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_init_needed.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.DA_o) (___io_init_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.DA_o) (___stdio_write_unbuffered)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_int.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o) (___pop_int_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_ptr.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o) (___pop_ptr_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_d.DA_o) (___pad)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__stdio_close.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.DA_o) (___stdio_close_rw)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(atoi.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o) (_atoi)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fputs.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(puts.DA_o) (_fputs)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fwrite.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fputs.DA_o) (_fwrite)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(lseek.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__stdio_close.DA_o) (_lseek)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(putc.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(puts.DA_o) (_putc_unlocked)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strlen.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_s.DA_o) (_strlen)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(syscall_ret.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(lseek.DA_o) (___syscall_ret)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(tolower.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o) (_tolower)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(toupper.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_x.DA_o) (_toupper)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__errno_location.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o) (___errno_val)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__init_stdio.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_init_needed.DA_o) (___init_stdio_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_file_needed.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_init_needed.DA_o) (___io_file_needed)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_float.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o) (___pop_float)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(closeda.Meo)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__stdio_close.DA_o) (_close)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(writeda.Meo)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.DA_o) (_write)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(c30_uartda.Meo)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(writeda.Meo) (___C30_UART)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_float.DA_o) (___extendsfdf2)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o) (__funpack)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memset.DA_o) (___mulsi3)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.DA_o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_u.DA_o) (___udivdi3)
+
+
+xc16-ld 2.10 (B)
+
+Default Code Model: Small
+Default Data Model: Large
+Default Scalar Model: Small
+
+"program" Memory  [Origin = 0x200, Length = 0x155f8]
+
+section                    address   length (PC units)   length (bytes) (dec)
+-------                    -------   -----------------   --------------------
+.text                        0x200              0x1188          0x1a4c  (6732)
+.const                      0x1388                0x86            0xc9  (201)
+.text                       0x140e              0x4836          0x6c51  (27729)
+.dinit                      0x5c44                0xba           0x117  (279)
+.text                       0x5cfe               0x32c           0x4c2  (1218)
+
+                 Total "program" memory used (bytes):         0x8d3f  (36159) 27%
+
+
+"data" Memory  [Origin = 0x800, Length = 0x2000]
+
+section                    address      alignment gaps    total length  (dec)
+-------                    -------      --------------    -------------------
+.nbss                        0x800                   0            0x50  (80)
+.ndata                       0x850                   0             0x4  (4)
+.nbss                        0x854                   0             0x6  (6)
+.bss                         0x85a                   0           0xc60  (3168)
+.data                       0x14ba                   0            0x42  (66)
+.bss                        0x14fc                   0            0x5c  (92)
+.data                       0x1558                   0            0x1e  (30)
+.bss                        0x1576                   0            0x1c  (28)
+.data                       0x1592                   0             0x2  (2)
+
+                 Total "data" memory used (bytes):          0xd94  (3476) 42%
+
+
+Dynamic Memory Usage
+
+region                     address                      maximum length  (dec)
+------                     -------                      ---------------------
+heap                             0                                   0  (0)
+stack                       0x1594                              0x126c  (4716)
+
+                 Maximum dynamic memory (bytes):         0x126c  (4716)
+
+Info: Project is using a large data memory model when small data memory model is sufficient.
+
+
+External Symbols in Data Memory (by address):
+
+                    0x0800                  _pxCurrentTCB
+                    0x0826                  _pxCurrentCoRoutine
+                    0x0850                  _uxCriticalNesting
+                    0x14ba                  __stdout
+                    0x14bc                  ___stdout_used
+                    0x1590                  ___errno_val
+                    0x1592                  ___C30_UART
+
+External Symbols in Data Memory (by name):
+
+                    0x1592                  ___C30_UART
+                    0x1590                  ___errno_val
+                    0x14bc                  ___stdout_used
+                    0x14ba                  __stdout
+                    0x0826                  _pxCurrentCoRoutine
+                    0x0800                  _pxCurrentTCB
+                    0x0850                  _uxCriticalNesting
+
+External Symbols in Program Memory (by address):
+
+                  0x000200                  __resetPRI
+                  0x00023c                  __psv_init
+                  0x000252                  __data_init_da
+                  0x000252                  __data_init
+                  0x000328                  __T1Interrupt
+                  0x000360                  __OscillatorFail
+                  0x000380                  __StackError
+                  0x0003a2                  __AddressError
+                  0x0003c2                  __MathError
+                  0x0003e2                  __DefaultInterrupt
+                  0x00048e                  ___sio_printf_dosux
+                  0x0004ac                  ___sio_printf_doux
+                  0x0004ba                  _memcmp
+                  0x0004d6                  _memcpy
+                  0x0004e4                  _memset
+                  0x0005ac                  _puts
+                  0x0005cc                  ___init_stdout
+                  0x0005d4                  ___fmt_d
+                  0x000686                  ___fmt_o
+                  0x0006f0                  ___fmt_s
+                  0x000744                  ___cvt_u
+                  0x0007ea                  ___fmt_u
+                  0x00083c                  ___fmt_x
+                  0x000986                  ___vfprintf
+                  0x0009cc                  ___out
+                  0x0009dc                  ___pop_int
+                  0x000a84                  ___pop_ptr
+                  0x000b1a                  ___pad
+                  0x000b94                  ___fmt_state
+                  0x000e98                  ___printf_core
+                  0x000ed8                  ___stdio_close
+                  0x000f16                  ___stdio_close_rw
+                  0x000f82                  _atoi
+                  0x000fce                  _fputs
+                  0x000ffa                  _fwrite
+                  0x001026                  ___lseek
+                  0x001032                  ___putc_unbuffered
+                  0x001060                  _putc
+                  0x001062                  _strlen
+                  0x001092                  ___syscall_ret
+                  0x0010a6                  _tolower
+                  0x0010b2                  ___tolower_l
+                  0x0010b4                  _toupper
+                  0x0010c0                  ___toupper_l
+                  0x0010c4                  ___init_stdio
+                  0x0010ca                  ___pop_float
+                  0x001110                  ___extendsfdf2
+                  0x00114e                  __funpack
+                  0x001178                  ___mulp32eds3
+                  0x001178                  ___mulsi3
+                  0x001178                  ___mulp32peds3
+                  0x0011d0                  ___udivmoddi3
+                  0x0012b6                  ___udivdi3
+                  0x0012c4                  ___umoddi3
+                  0x0012cc                  ___divdi3
+                  0x00132c                  ___moddi3
+                  0x0013dc                  _uxTopUsedPriority
+                  0x00140e                  _xTaskCreate
+                  0x00160a                  _vTaskDelay
+                  0x00163c                  _eTaskGetState
+                  0x001684                  _uxTaskPriorityGet
+                  0x0016a6                  _uxTaskPriorityGetFromISR
+                  0x0016c8                  _vTaskPrioritySet
+                  0x0017ee                  _vTaskStartScheduler
+                  0x001836                  _vTaskEndScheduler
+                  0x00184e                  _vTaskSuspendAll
+                  0x00185a                  _xTaskResumeAll
+                  0x0019c4                  _xTaskGetTickCount
+                  0x0019d6                  _xTaskGetTickCountFromISR
+                  0x0019ec                  _uxTaskGetNumberOfTasks
+                  0x0019f4                  _pcTaskGetName
+                  0x001adc                  _xTaskGetHandle
+                  0x001b2c                  _xTaskCatchUpTicks
+                  0x001b52                  _xTaskAbortDelay
+                  0x001c06                  _xTaskIncrementTick
+                  0x001da8                  _vTaskSwitchContext
+                  0x001e2c                  _vTaskPlaceOnEventList
+                  0x001e4a                  _vTaskPlaceOnUnorderedEventList
+                  0x001ea4                  _vTaskPlaceOnEventListRestricted
+                  0x001efe                  _xTaskRemoveFromEventList
+                  0x002040                  _vTaskRemoveFromUnorderedEventList
+                  0x002142                  _vTaskSetTimeOutState
+                  0x00215e                  _vTaskInternalSetTimeOutState
+                  0x002176                  _xTaskCheckForTimeOut
+                  0x00220c                  _vTaskMissedYield
+                  0x002216                  build/default/production/FreeRTOS/Source/tasks.o:_prvIdleTask
+                  0x002288                  _xTaskGetCurrentTaskHandle
+                  0x002294                  _xTaskGetSchedulerState
+                  0x0022b8                  _xTaskPriorityInherit
+                  0x0023a0                  _xTaskPriorityDisinherit
+                  0x00245e                  _vTaskPriorityDisinheritAfterTimeout
+                  0x002542                  _uxTaskResetEventItemValue
+                  0x002566                  _pvTaskIncrementMutexHeldCount
+                  0x00257c                  _ulTaskGenericNotifyTake
+                  0x002616                  _xTaskGenericNotifyWait
+                  0x002706                  _xTaskGenericNotify
+                  0x00289a                  _xTaskGenericNotifyFromISR
+                  0x002a72                  _vTaskGenericNotifyGiveFromISR
+                  0x002bac                  _xTaskGenericNotifyStateClear
+                  0x002bec                  _ulTaskGenericNotifyValueClear
+                  0x002cbe                  _xQueueGenericReset
+                  0x002d74                  _xQueueGenericCreate
+                  0x002e40                  _xQueueCreateMutex
+                  0x002e60                  _xQueueCreateCountingSemaphore
+                  0x002e94                  _xQueueGenericSend
+                  0x002fac                  _xQueueGenericSendFromISR
+                  0x003064                  _xQueueGiveFromISR
+                  0x0030fc                  _xQueueReceive
+                  0x0031e0                  _xQueueSemaphoreTake
+                  0x0032fa                  _xQueuePeek
+                  0x0033e2                  _xQueueReceiveFromISR
+                  0x003460                  _xQueuePeekFromISR
+                  0x003498                  _uxQueueMessagesWaiting
+                  0x0034ac                  _uxQueueSpacesAvailable
+                  0x0034ca                  _uxQueueMessagesWaitingFromISR
+                  0x0034de                  _vQueueDelete
+                  0x0036bc                  _xQueueIsQueueEmptyFromISR
+                  0x003700                  _xQueueIsQueueFullFromISR
+                  0x003724                  _xQueueCRSend
+                  0x0037d6                  _xQueueCRReceive
+                  0x0038b8                  _xQueueCRSendFromISR
+                  0x0038fa                  _xQueueCRReceiveFromISR
+                  0x00397a                  _vQueueWaitForMessageRestricted
+                  0x0039c4                  _xQueueCreateSet
+                  0x0039d8                  _xQueueAddToSet
+                  0x003a0e                  _xQueueRemoveFromSet
+                  0x003a4a                  _xQueueSelectFromSet
+                  0x003a66                  _xQueueSelectFromSetFromISR
+                  0x003ae4                  _xStreamBufferGenericCreate
+                  0x003b46                  _vStreamBufferDelete
+                  0x003b6c                  _xStreamBufferReset
+                  0x003bbe                  _xStreamBufferSetTriggerLevel
+                  0x003bf2                  _xStreamBufferSpacesAvailable
+                  0x003c30                  _xStreamBufferBytesAvailable
+                  0x003c44                  _xStreamBufferSend
+                  0x003d3c                  _xStreamBufferSendFromISR
+                  0x003e16                  _xStreamBufferReceive
+                  0x003ed4                  _xStreamBufferNextMessageLengthBytes
+                  0x003f1c                  _xStreamBufferReceiveFromISR
+                  0x003ffe                  _xStreamBufferIsEmpty
+                  0x004026                  _xStreamBufferIsFull
+                  0x004060                  _xStreamBufferSendCompletedFromISR
+                  0x00409c                  _xStreamBufferReceiveCompletedFromISR
+                  0x0041f6                  _xTimerCreateTimerTask
+                  0x00421a                  _xTimerCreate
+                  0x004298                  _xTimerGenericCommand
+                  0x0042fe                  _xTimerGetTimerDaemonTaskHandle
+                  0x004306                  _xTimerGetPeriod
+                  0x004318                  _vTimerSetReloadMode
+                  0x00434a                  _xTimerGetReloadMode
+                  0x004372                  _uxTimerGetReloadMode
+                  0x00437e                  _xTimerGetExpiryTime
+                  0x004398                  _pcTimerGetName
+                  0x00443c                  build/default/production/FreeRTOS/Source/timers.o:_prvTimerTask
+                  0x004748                  _xTimerIsTimerActive
+                  0x004770                  _pvTimerGetTimerID
+                  0x004788                  _vTimerSetTimerID
+                  0x0047a0                  _xTimerPendFunctionCallFromISR
+                  0x0047d2                  _xTimerPendFunctionCall
+                  0x004808                  _xEventGroupCreate
+                  0x004828                  _xEventGroupSync
+                  0x0049a6                  _xEventGroupWaitBits
+                  0x004b18                  _xEventGroupClearBits
+                  0x004b5e                  _xEventGroupGetBitsFromISR
+                  0x004b7a                  _xEventGroupSetBits
+                  0x004d00                  _vEventGroupDelete
+                  0x004d2e                  _vEventGroupSetBitsCallback
+                  0x004d42                  _vEventGroupClearBitsCallback
+                  0x004dc4                  _pvPortMalloc
+                  0x004ebc                  _vPortFree
+                  0x004f0c                  _xPortGetFreeHeapSize
+                  0x004f14                  _xPortGetMinimumEverFreeHeapSize
+                  0x004f1c                  _vPortInitialiseBlocks
+                  0x004f22                  _pvPortCalloc
+                  0x0050be                  _vPortGetHeapStats
+                  0x005142                  _xCoRoutineCreate
+                  0x0051e2                  _vCoRoutineAddToDelayedList
+                  0x005360                  _vCoRoutineSchedule
+                  0x005404                  _xCoRoutineRemoveFromEventList
+                  0x005452                  _taskSerial_init
+                  0x00545c                  build/default/production/src/app/taskSerial.o:_vAppTask
+                  0x00558a                  _vListInitialise
+                  0x0055c0                  _vListInitialiseItem
+                  0x0055ce                  _vListInsertEnd
+                  0x00560a                  _vListInsert
+                  0x00567c                  _uxListRemove
+                  0x0056c4                  _OC3_Initialize
+                  0x0056e6                  _OC3_Tasks
+                  0x0056fa                  _OC3_Start
+                  0x005714                  _OC3_Stop
+                  0x005722                  _OC3_SecondaryValueSet
+                  0x00572e                  _OC3_PrimaryValueSet
+                  0x00573a                  _OC3_IsCompareCycleComplete
+                  0x005752                  _OC3_FaultStatusGet
+                  0x0057a8                  _OC3_FaultStatusClear
+                  0x0057cc                  _OC3_ManualTriggerSet
+                  0x0057d4                  _OC3_TriggerStatusGet
+                  0x0057ec                  _OC3_TriggerStatusClear
+                  0x0057f4                  _OC2_Initialize
+                  0x005816                  _OC2_Tasks
+                  0x00582a                  _OC2_Start
+                  0x005844                  _OC2_Stop
+                  0x005852                  _OC2_SecondaryValueSet
+                  0x00585e                  _OC2_PrimaryValueSet
+                  0x00586a                  _OC2_IsCompareCycleComplete
+                  0x005882                  _OC2_FaultStatusGet
+                  0x0058d8                  _OC2_FaultStatusClear
+                  0x0058fc                  _OC2_ManualTriggerSet
+                  0x005904                  _OC2_TriggerStatusGet
+                  0x00591c                  _OC2_TriggerStatusClear
+                  0x005924                  _pxPortInitialiseStack
+                  0x0059be                  _xPortStartScheduler
+                  0x0059ee                  _vPortEndScheduler
+                  0x005a1c                  _vPortEnterCritical
+                  0x005a36                  _vPortExitCritical
+                  0x005a52                  _OC1_Initialize
+                  0x005a74                  _OC1_Tasks
+                  0x005a86                  _OC1_Start
+                  0x005aa0                  _OC1_Stop
+                  0x005aae                  _OC1_SecondaryValueSet
+                  0x005aba                  _OC1_PrimaryValueSet
+                  0x005ac6                  _OC1_IsCompareCycleComplete
+                  0x005ade                  _OC1_FaultStatusGet
+                  0x005b34                  _OC1_FaultStatusClear
+                  0x005b58                  _OC1_ManualTriggerSet
+                  0x005b60                  _OC1_TriggerStatusGet
+                  0x005b78                  _OC1_TriggerStatusClear
+                  0x005b80                  _UART1_Initialize
+                  0x005ba0                  _UART1_Read
+                  0x005bbe                  _UART1_Write
+                  0x005bd6                  _UART1_IsRxReady
+                  0x005bee                  _UART1_IsTxReady
+                  0x005c10                  _UART1_IsTxDone
+                  0x005c28                  _UART1_StatusGet
+                  0x005c30                  _UART1_Enable
+                  0x005c3a                  _UART1_Disable
+                  0x005cfe                  _TMR2_Initialize
+                  0x005d14                  _TMR2_Tasks_16BitOperation
+                  0x005d36                  _TMR2_Period16BitSet
+                  0x005d48                  _TMR2_Period16BitGet
+                  0x005d50                  _TMR2_Counter16BitSet
+                  0x005d62                  _TMR2_Counter16BitGet
+                  0x005d6a                  _TMR2_Start
+                  0x005d78                  _TMR2_Stop
+                  0x005d80                  _TMR2_GetElapsedThenClear
+                  0x005d98                  _TMR2_SoftwareCounterGet
+                  0x005da4                  _TMR2_SoftwareCounterClear
+                  0x005db0                  _PIN_MANAGER_Initialize
+                  0x005e4a                  _taskPwm_init
+                  0x005e54                  build/default/production/src/app/taskPwm.o:_vAppTask
+                  0x005eb4                  _main
+                  0x005ec2                  build/default/production/src/main.o:_prvMainCoRoutine
+                  0x005f0a                  _vPortYield
+                  0x005f5e                  _CLOCK_Initialize
+                  0x005f9a                  _vApplicationIdleHook
+                  0x005fa2                  _vApplicationStackOverflowHook
+                  0x005fb8                  _vApplicationMallocFailedHook
+                  0x005fe0                  _taskBlinky_init
+                  0x005fea                  build/default/production/src/app/taskBlinky.o:_vAppTask
+                  0x00600e                  _SYSTEM_Initialize
+                  0x006024                  _INTERRUPT_Initialize
+
+External Symbols in Program Memory (by name):
+
+                  0x005f5e                  _CLOCK_Initialize
+                  0x006024                  _INTERRUPT_Initialize
+                  0x005b34                  _OC1_FaultStatusClear
+                  0x005ade                  _OC1_FaultStatusGet
+                  0x005a52                  _OC1_Initialize
+                  0x005ac6                  _OC1_IsCompareCycleComplete
+                  0x005b58                  _OC1_ManualTriggerSet
+                  0x005aba                  _OC1_PrimaryValueSet
+                  0x005aae                  _OC1_SecondaryValueSet
+                  0x005a86                  _OC1_Start
+                  0x005aa0                  _OC1_Stop
+                  0x005a74                  _OC1_Tasks
+                  0x005b78                  _OC1_TriggerStatusClear
+                  0x005b60                  _OC1_TriggerStatusGet
+                  0x0058d8                  _OC2_FaultStatusClear
+                  0x005882                  _OC2_FaultStatusGet
+                  0x0057f4                  _OC2_Initialize
+                  0x00586a                  _OC2_IsCompareCycleComplete
+                  0x0058fc                  _OC2_ManualTriggerSet
+                  0x00585e                  _OC2_PrimaryValueSet
+                  0x005852                  _OC2_SecondaryValueSet
+                  0x00582a                  _OC2_Start
+                  0x005844                  _OC2_Stop
+                  0x005816                  _OC2_Tasks
+                  0x00591c                  _OC2_TriggerStatusClear
+                  0x005904                  _OC2_TriggerStatusGet
+                  0x0057a8                  _OC3_FaultStatusClear
+                  0x005752                  _OC3_FaultStatusGet
+                  0x0056c4                  _OC3_Initialize
+                  0x00573a                  _OC3_IsCompareCycleComplete
+                  0x0057cc                  _OC3_ManualTriggerSet
+                  0x00572e                  _OC3_PrimaryValueSet
+                  0x005722                  _OC3_SecondaryValueSet
+                  0x0056fa                  _OC3_Start
+                  0x005714                  _OC3_Stop
+                  0x0056e6                  _OC3_Tasks
+                  0x0057ec                  _OC3_TriggerStatusClear
+                  0x0057d4                  _OC3_TriggerStatusGet
+                  0x005db0                  _PIN_MANAGER_Initialize
+                  0x00600e                  _SYSTEM_Initialize
+                  0x005d62                  _TMR2_Counter16BitGet
+                  0x005d50                  _TMR2_Counter16BitSet
+                  0x005d80                  _TMR2_GetElapsedThenClear
+                  0x005cfe                  _TMR2_Initialize
+                  0x005d48                  _TMR2_Period16BitGet
+                  0x005d36                  _TMR2_Period16BitSet
+                  0x005da4                  _TMR2_SoftwareCounterClear
+                  0x005d98                  _TMR2_SoftwareCounterGet
+                  0x005d6a                  _TMR2_Start
+                  0x005d78                  _TMR2_Stop
+                  0x005d14                  _TMR2_Tasks_16BitOperation
+                  0x005c3a                  _UART1_Disable
+                  0x005c30                  _UART1_Enable
+                  0x005b80                  _UART1_Initialize
+                  0x005bd6                  _UART1_IsRxReady
+                  0x005c10                  _UART1_IsTxDone
+                  0x005bee                  _UART1_IsTxReady
+                  0x005ba0                  _UART1_Read
+                  0x005c28                  _UART1_StatusGet
+                  0x005bbe                  _UART1_Write
+                  0x0003a2                  __AddressError
+                  0x0003e2                  __DefaultInterrupt
+                  0x0003c2                  __MathError
+                  0x000360                  __OscillatorFail
+                  0x000380                  __StackError
+                  0x000328                  __T1Interrupt
+                  0x000744                  ___cvt_u
+                  0x0012cc                  ___divdi3
+                  0x001110                  ___extendsfdf2
+                  0x0005d4                  ___fmt_d
+                  0x000686                  ___fmt_o
+                  0x0006f0                  ___fmt_s
+                  0x000b94                  ___fmt_state
+                  0x0007ea                  ___fmt_u
+                  0x00083c                  ___fmt_x
+                  0x0010c4                  ___init_stdio
+                  0x0005cc                  ___init_stdout
+                  0x001026                  ___lseek
+                  0x00132c                  ___moddi3
+                  0x001178                  ___mulp32eds3
+                  0x001178                  ___mulp32peds3
+                  0x001178                  ___mulsi3
+                  0x0009cc                  ___out
+                  0x000b1a                  ___pad
+                  0x0010ca                  ___pop_float
+                  0x0009dc                  ___pop_int
+                  0x000a84                  ___pop_ptr
+                  0x000e98                  ___printf_core
+                  0x001032                  ___putc_unbuffered
+                  0x00048e                  ___sio_printf_dosux
+                  0x0004ac                  ___sio_printf_doux
+                  0x000ed8                  ___stdio_close
+                  0x000f16                  ___stdio_close_rw
+                  0x001092                  ___syscall_ret
+                  0x0010b2                  ___tolower_l
+                  0x0010c0                  ___toupper_l
+                  0x0012b6                  ___udivdi3
+                  0x0011d0                  ___udivmoddi3
+                  0x0012c4                  ___umoddi3
+                  0x000986                  ___vfprintf
+                  0x000252                  __data_init
+                  0x000252                  __data_init_da
+                  0x00114e                  __funpack
+                  0x00023c                  __psv_init
+                  0x000200                  __resetPRI
+                  0x000f82                  _atoi
+                  0x00163c                  _eTaskGetState
+                  0x000fce                  _fputs
+                  0x000ffa                  _fwrite
+                  0x005eb4                  _main
+                  0x0004ba                  _memcmp
+                  0x0004d6                  _memcpy
+                  0x0004e4                  _memset
+                  0x0019f4                  _pcTaskGetName
+                  0x004398                  _pcTimerGetName
+                  0x001060                  _putc
+                  0x0005ac                  _puts
+                  0x004f22                  _pvPortCalloc
+                  0x004dc4                  _pvPortMalloc
+                  0x002566                  _pvTaskIncrementMutexHeldCount
+                  0x004770                  _pvTimerGetTimerID
+                  0x005924                  _pxPortInitialiseStack
+                  0x001062                  _strlen
+                  0x005fe0                  _taskBlinky_init
+                  0x005e4a                  _taskPwm_init
+                  0x005452                  _taskSerial_init
+                  0x0010a6                  _tolower
+                  0x0010b4                  _toupper
+                  0x00257c                  _ulTaskGenericNotifyTake
+                  0x002bec                  _ulTaskGenericNotifyValueClear
+                  0x00567c                  _uxListRemove
+                  0x003498                  _uxQueueMessagesWaiting
+                  0x0034ca                  _uxQueueMessagesWaitingFromISR
+                  0x0034ac                  _uxQueueSpacesAvailable
+                  0x0019ec                  _uxTaskGetNumberOfTasks
+                  0x001684                  _uxTaskPriorityGet
+                  0x0016a6                  _uxTaskPriorityGetFromISR
+                  0x002542                  _uxTaskResetEventItemValue
+                  0x004372                  _uxTimerGetReloadMode
+                  0x0013dc                  _uxTopUsedPriority
+                  0x005f9a                  _vApplicationIdleHook
+                  0x005fb8                  _vApplicationMallocFailedHook
+                  0x005fa2                  _vApplicationStackOverflowHook
+                  0x0051e2                  _vCoRoutineAddToDelayedList
+                  0x005360                  _vCoRoutineSchedule
+                  0x004d42                  _vEventGroupClearBitsCallback
+                  0x004d00                  _vEventGroupDelete
+                  0x004d2e                  _vEventGroupSetBitsCallback
+                  0x00558a                  _vListInitialise
+                  0x0055c0                  _vListInitialiseItem
+                  0x00560a                  _vListInsert
+                  0x0055ce                  _vListInsertEnd
+                  0x0059ee                  _vPortEndScheduler
+                  0x005a1c                  _vPortEnterCritical
+                  0x005a36                  _vPortExitCritical
+                  0x004ebc                  _vPortFree
+                  0x0050be                  _vPortGetHeapStats
+                  0x004f1c                  _vPortInitialiseBlocks
+                  0x005f0a                  _vPortYield
+                  0x0034de                  _vQueueDelete
+                  0x00397a                  _vQueueWaitForMessageRestricted
+                  0x003b46                  _vStreamBufferDelete
+                  0x00160a                  _vTaskDelay
+                  0x001836                  _vTaskEndScheduler
+                  0x002a72                  _vTaskGenericNotifyGiveFromISR
+                  0x00215e                  _vTaskInternalSetTimeOutState
+                  0x00220c                  _vTaskMissedYield
+                  0x001e2c                  _vTaskPlaceOnEventList
+                  0x001ea4                  _vTaskPlaceOnEventListRestricted
+                  0x001e4a                  _vTaskPlaceOnUnorderedEventList
+                  0x00245e                  _vTaskPriorityDisinheritAfterTimeout
+                  0x0016c8                  _vTaskPrioritySet
+                  0x002040                  _vTaskRemoveFromUnorderedEventList
+                  0x002142                  _vTaskSetTimeOutState
+                  0x0017ee                  _vTaskStartScheduler
+                  0x00184e                  _vTaskSuspendAll
+                  0x001da8                  _vTaskSwitchContext
+                  0x004318                  _vTimerSetReloadMode
+                  0x004788                  _vTimerSetTimerID
+                  0x005142                  _xCoRoutineCreate
+                  0x005404                  _xCoRoutineRemoveFromEventList
+                  0x004b18                  _xEventGroupClearBits
+                  0x004808                  _xEventGroupCreate
+                  0x004b5e                  _xEventGroupGetBitsFromISR
+                  0x004b7a                  _xEventGroupSetBits
+                  0x004828                  _xEventGroupSync
+                  0x0049a6                  _xEventGroupWaitBits
+                  0x004f0c                  _xPortGetFreeHeapSize
+                  0x004f14                  _xPortGetMinimumEverFreeHeapSize
+                  0x0059be                  _xPortStartScheduler
+                  0x0039d8                  _xQueueAddToSet
+                  0x0037d6                  _xQueueCRReceive
+                  0x0038fa                  _xQueueCRReceiveFromISR
+                  0x003724                  _xQueueCRSend
+                  0x0038b8                  _xQueueCRSendFromISR
+                  0x002e60                  _xQueueCreateCountingSemaphore
+                  0x002e40                  _xQueueCreateMutex
+                  0x0039c4                  _xQueueCreateSet
+                  0x002d74                  _xQueueGenericCreate
+                  0x002cbe                  _xQueueGenericReset
+                  0x002e94                  _xQueueGenericSend
+                  0x002fac                  _xQueueGenericSendFromISR
+                  0x003064                  _xQueueGiveFromISR
+                  0x0036bc                  _xQueueIsQueueEmptyFromISR
+                  0x003700                  _xQueueIsQueueFullFromISR
+                  0x0032fa                  _xQueuePeek
+                  0x003460                  _xQueuePeekFromISR
+                  0x0030fc                  _xQueueReceive
+                  0x0033e2                  _xQueueReceiveFromISR
+                  0x003a0e                  _xQueueRemoveFromSet
+                  0x003a4a                  _xQueueSelectFromSet
+                  0x003a66                  _xQueueSelectFromSetFromISR
+                  0x0031e0                  _xQueueSemaphoreTake
+                  0x003c30                  _xStreamBufferBytesAvailable
+                  0x003ae4                  _xStreamBufferGenericCreate
+                  0x003ffe                  _xStreamBufferIsEmpty
+                  0x004026                  _xStreamBufferIsFull
+                  0x003ed4                  _xStreamBufferNextMessageLengthBytes
+                  0x003e16                  _xStreamBufferReceive
+                  0x00409c                  _xStreamBufferReceiveCompletedFromISR
+                  0x003f1c                  _xStreamBufferReceiveFromISR
+                  0x003b6c                  _xStreamBufferReset
+                  0x003c44                  _xStreamBufferSend
+                  0x004060                  _xStreamBufferSendCompletedFromISR
+                  0x003d3c                  _xStreamBufferSendFromISR
+                  0x003bbe                  _xStreamBufferSetTriggerLevel
+                  0x003bf2                  _xStreamBufferSpacesAvailable
+                  0x001b52                  _xTaskAbortDelay
+                  0x001b2c                  _xTaskCatchUpTicks
+                  0x002176                  _xTaskCheckForTimeOut
+                  0x00140e                  _xTaskCreate
+                  0x002706                  _xTaskGenericNotify
+                  0x00289a                  _xTaskGenericNotifyFromISR
+                  0x002bac                  _xTaskGenericNotifyStateClear
+                  0x002616                  _xTaskGenericNotifyWait
+                  0x002288                  _xTaskGetCurrentTaskHandle
+                  0x001adc                  _xTaskGetHandle
+                  0x002294                  _xTaskGetSchedulerState
+                  0x0019c4                  _xTaskGetTickCount
+                  0x0019d6                  _xTaskGetTickCountFromISR
+                  0x001c06                  _xTaskIncrementTick
+                  0x0023a0                  _xTaskPriorityDisinherit
+                  0x0022b8                  _xTaskPriorityInherit
+                  0x001efe                  _xTaskRemoveFromEventList
+                  0x00185a                  _xTaskResumeAll
+                  0x00421a                  _xTimerCreate
+                  0x0041f6                  _xTimerCreateTimerTask
+                  0x004298                  _xTimerGenericCommand
+                  0x00437e                  _xTimerGetExpiryTime
+                  0x004306                  _xTimerGetPeriod
+                  0x00434a                  _xTimerGetReloadMode
+                  0x0042fe                  _xTimerGetTimerDaemonTaskHandle
+                  0x004748                  _xTimerIsTimerActive
+                  0x0047d2                  _xTimerPendFunctionCall
+                  0x0047a0                  _xTimerPendFunctionCallFromISR
+                  0x002216                  build/default/production/FreeRTOS/Source/tasks.o:_prvIdleTask
+                  0x00443c                  build/default/production/FreeRTOS/Source/timers.o:_prvTimerTask
+                  0x005fea                  build/default/production/src/app/taskBlinky.o:_vAppTask
+                  0x005e54                  build/default/production/src/app/taskPwm.o:_vAppTask
+                  0x00545c                  build/default/production/src/app/taskSerial.o:_vAppTask
+                  0x005ec2                  build/default/production/src/main.o:_prvMainCoRoutine
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+data             0x000800           0x002000           a !xr
+reset            0x000000           0x000004  
+ivt              0x000004           0x0000fc  
+_reserved        0x000100           0x000004  
+aivt             0x000104           0x0000fc  
+program          0x000200           0x0155f8           xr
+CONFIG4          0x0157f8           0x000002  
+CONFIG3          0x0157fa           0x000002  
+CONFIG2          0x0157fc           0x000002  
+CONFIG1          0x0157fe           0x000002  
+*default*        0x000000           0xffffffff  
+
+Linker script and memory map
+
+LOAD build/default/production/src/app/taskBlinky.o
+LOAD build/default/production/src/app/taskSerial.o
+LOAD build/default/production/src/app/taskPwm.o
+LOAD build/default/production/FreeRTOS/Source/croutine.o
+LOAD build/default/production/FreeRTOS/Source/event_groups.o
+LOAD build/default/production/FreeRTOS/Source/list.o
+LOAD build/default/production/FreeRTOS/Source/queue.o
+LOAD build/default/production/FreeRTOS/Source/stream_buffer.o
+LOAD build/default/production/FreeRTOS/Source/tasks.o
+LOAD build/default/production/FreeRTOS/Source/timers.o
+LOAD build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+LOAD build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+LOAD build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.o
+LOAD build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC.o
+LOAD build/default/production/mcc_generated_files/traps.o
+LOAD build/default/production/mcc_generated_files/pin_manager.o
+LOAD build/default/production/mcc_generated_files/system.o
+LOAD build/default/production/mcc_generated_files/clock.o
+LOAD build/default/production/mcc_generated_files/mcc.o
+LOAD build/default/production/mcc_generated_files/interrupt_manager.o
+LOAD build/default/production/mcc_generated_files/uart1.o
+LOAD build/default/production/mcc_generated_files/oc3.o
+LOAD build/default/production/mcc_generated_files/oc2.o
+LOAD build/default/production/mcc_generated_files/oc1.o
+LOAD build/default/production/mcc_generated_files/tmr2.o
+LOAD build/default/production/src/main.o
+LOAD build/default/production/src/rtos_hooks.o
+                    0x0001                  __MPLAB_BUILD = 0x1
+LOAD pPIC24Fxxx
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libfx-elf.a
+                    0x157f8                  __CONFIG4 = 0x157f8
+                    0x157fa                  __CONFIG3 = 0x157fa
+                    0x157fc                  __CONFIG2 = 0x157fc
+                    0x157fe                  __CONFIG1 = 0x157fe
+                    0x0200                  __CODE_BASE = 0x200
+                    0x155f8                  __CODE_LENGTH = 0x155f8
+                    0x0004                  __IVT_BASE = 0x4
+                    0x0104                  __AIVT_BASE = 0x104
+                    0x0800                  __DATA_BASE = 0x800
+                    0x2000                  __DATA_LENGTH = 0x2000
+
+.reset            0x000000          0x4
+                  0x000000          0x2 SHORT 0x200 ABSOLUTE (__reset)
+                  0x000001          0x2 SHORT 0x4
+                  0x000002          0x2 SHORT 0x0 ((ABSOLUTE (__reset) >> 0x10) & 0x7f)
+                  0x000003          0x2 SHORT 0x0
+
+.text             0x000200       0x1188
+ *(.init)
+ .init            0x000200         0x4c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_extended24.o)
+                  0x000200                  __resetPRI
+                  0x000200                  __reset
+                  0x00023c                  __psv_init
+ .init            0x00024c         0xb8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(data_init_24.o)
+                  0x000252                  __data_init
+                  0x000252                  __data_init_da
+ *(.user_init)
+ *(.handle)
+ .handle          0x000304         0x24 jump_table
+ *(.isr*)
+ .isr.text        0x000328         0x38 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+                  0x000328                  __T1Interrupt
+ .isr.text        0x000360         0x82 build/default/production/mcc_generated_files/traps.o
+                  0x000360                  __OscillatorFail
+                  0x000380                  __StackError
+                  0x0003a2                  __AddressError
+                  0x0003c2                  __MathError
+ .isr             0x0003e2          0x4 default_isr
+                  0x0003e2                  __DefaultInterrupt
+ *(.libc)
+ .libc            0x0003e6         0x12 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(closeda.Meo)
+                  0x0003e6                  _close
+ .libc            0x0003f8         0x84 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(writeda.Meo)
+                  0x0003f8                  _write
+ *(.libm)
+ *(.libdsp)
+ *(.lib*)
+ .libpic30_crt_start_mode
+                  0x00047c          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt_start_mode_normalda.Meo)
+                  0x00047c                  __crt_start_mode
+                  0x00047c                  __crt_start_mode_normal
+ .libc.__wrap_printf
+                  0x00047e         0x10 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o)
+                  0x00047e                  __dprintf_cdnopsuxX
+                  0x00047e                  __printf_cdnopsuxX
+ .libc.__sio_printf_dosux
+                  0x00048e          0xe c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o)
+                  0x00048e                  ___sio_printf_dosux
+ .libc.__wrap_printf
+                  0x00049c         0x10 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_doux.DA_o)
+                  0x00049c                  __printf_cdnopuxX
+                  0x00049c                  __dprintf_cdnopuxX
+ .libc.__sio_printf_doux
+                  0x0004ac          0xe c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_doux.DA_o)
+                  0x0004ac                  ___sio_printf_doux
+ .libc.memcmp     0x0004ba         0x1c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcmp.DA_o)
+                  0x0004ba                  _memcmp
+ .libc.memcpy     0x0004d6          0xe c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcpy.DA_o)
+                  0x0004d6                  _memcpy
+ .libc.memset     0x0004e4         0xc8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memset.DA_o)
+                  0x0004e4                  _memset
+ .libc.puts       0x0005ac         0x1a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(puts.DA_o)
+                  0x0005ac                  _puts
+ .libc.__dummy0
+                  0x0005c6          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.DA_o)
+                  0x0005c6                  ___stdio_seek
+ .libc.__dummy    0x0005c8          0x4 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.DA_o)
+                  0x0005c8                  ___get_stdout
+ .libc.__init_stdout
+                  0x0005cc          0x8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.DA_o)
+                  0x0005cc                  ___init_stdout
+ .libc.__fmt_d    0x0005d4         0xb2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_d.DA_o)
+                  0x0005d4                  ___fmt_d
+                  0x0005d4                  ___fmt_d_needed
+ .libc.__fmt_o    0x000686         0x6a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_o.DA_o)
+                  0x000686                  ___fmt_o
+                  0x000686                  ___fmt_o_needed
+ .libc.__fmt_s    0x0006f0         0x54 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_s.DA_o)
+                  0x0006f0                  ___fmt_0_needed
+                  0x0006f0                  ___fmt_s_needed
+                  0x0006f0                  ___fmt_s
+ .libc.__cvt_u    0x000744         0xa6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_u.DA_o)
+                  0x000744                  ___cvt_u
+ .libc.__fmt_u    0x0007ea         0x52 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_u.DA_o)
+                  0x0007ea                  ___fmt_u
+                  0x0007ea                  ___fmt_u_needed
+ .libc.__fmt_x    0x00083c        0x14a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_x.DA_o)
+                  0x00083c                  ___fmt_x_needed
+                  0x00083c                  ___fmt_x
+ .libc.__vfprintf
+                  0x000986         0x1c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vfprintf.DA_o)
+                  0x000986                  ___vfprintf
+ .libc.__string_out
+                  0x0009a2         0x26 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.DA_o)
+ .libc.__fwrite_min
+                  0x0009c8          0x4 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.DA_o)
+                  0x0009c8                  ___fwrite
+                  0x0009c8                  ___stdio_write
+                  0x0009c8                  ___stdio_write_unbuffered
+ .libc.__out      0x0009cc         0x10 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.DA_o)
+                  0x0009cc                  ___out_needed
+                  0x0009cc                  ___out
+ .libc.__pop_int
+                  0x0009dc         0xa8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_int.DA_o)
+                  0x0009dc                  ___pop_int
+                  0x0009dc                  ___pop_int_needed
+ .libc.__pop_ptr
+                  0x000a84         0x70 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_ptr.DA_o)
+                  0x000a84                  ___pop_ptr_needed
+                  0x000a84                  ___pop_ptr
+ .libc.__string_out
+                  0x000af4         0x26 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+ .libc.__pad      0x000b1a         0x74 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+                  0x000b1a                  ___pad
+ .libc.__dummy_fmt3
+                  0x000b8e          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+ .libc.__dummy_fmt4
+                  0x000b90          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+                  0x000b90                  ___fmt_fp
+                  0x000b90                  ___fmt_a
+ .libc.__dummy_fmts
+                  0x000b92          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+ .libc.__fmt_state
+                  0x000b94         0x2c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+                  0x000b94                  ___fmt_state
+ .libc.vfpfcnvrt.clone.0
+                  0x000bc0        0x2d8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+ .libc.__printf_core
+                  0x000e98         0x40 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+                  0x000e98                  ___printf_core
+ .libc.__stdio_close
+                  0x000ed8         0x3e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__stdio_close.DA_o)
+                  0x000ed8                  ___stdio_close
+ .libc.__stdio_close_rw
+                  0x000f16         0x58 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__stdio_close.DA_o)
+                  0x000f16                  ___stdio_close_rw
+ .libc.__isspace
+                  0x000f6e         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(atoi.DA_o)
+ .libc.atoi       0x000f82         0x4c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(atoi.DA_o)
+                  0x000f82                  _atoi
+ .libc.fputs      0x000fce         0x28 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fputs.DA_o)
+                  0x000fce                  _fputs_unlocked
+                  0x000fce                  _fputs
+ .libc.__fwrite_min
+                  0x000ff6          0x4 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fwrite.DA_o)
+ .libc.fwrite     0x000ffa         0x2c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fwrite.DA_o)
+                  0x000ffa                  _fwrite
+                  0x000ffa                  _fwrite_unlocked
+ .libc.__lseek    0x001026          0xc c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(lseek.DA_o)
+                  0x001026                  _lseek
+                  0x001026                  ___lseek
+ .libc.__putc_unbuffered
+                  0x001032         0x2e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(putc.DA_o)
+                  0x001032                  ___putc
+                  0x001032                  ___putc_unbuffered
+ .libc.putc       0x001060          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(putc.DA_o)
+                  0x001060                  _putc
+                  0x001060                  _fputc
+                  0x001060                  _putc_unlocked
+                  0x001060                  __IO_putc
+ .libc.strlen     0x001062         0x30 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strlen.DA_o)
+                  0x001062                  _strlen
+ .libc.__syscall_ret
+                  0x001092         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(syscall_ret.DA_o)
+                  0x001092                  ___syscall_ret
+ .libc.tolower    0x0010a6          0xc c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(tolower.DA_o)
+                  0x0010a6                  _tolower
+ .libc.__tolower_l
+                  0x0010b2          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(tolower.DA_o)
+                  0x0010b2                  ___tolower_l
+                  0x0010b2                  _tolower_l
+ .libc.toupper    0x0010b4          0xc c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(toupper.DA_o)
+                  0x0010b4                  _toupper
+ .libc.__toupper_l
+                  0x0010c0          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(toupper.DA_o)
+                  0x0010c0                  ___toupper_l
+                  0x0010c0                  _toupper_l
+ .libc.__dummy    0x0010c2          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__init_stdio.DA_o)
+                  0x0010c2                  ___init_stderr
+                  0x0010c2                  ___init_stdin
+ .libc.__init_stdio
+                  0x0010c4          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__init_stdio.DA_o)
+                  0x0010c4                  ___init_stdio
+                  0x0010c4                  ___init_stdio_needed
+ .libc.__pop_float
+                  0x0010ca         0x3e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_float.DA_o)
+                  0x0010ca                  ___pop_float
+                  0x0010ca                  ___pop_float_needed
+ .libc.doclose    0x001108          0x4 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(closeda.Meo)
+ .libc.dowrite    0x00110c          0x4 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(writeda.Meo)
+ .libm.extendsfdf2
+                  0x001110         0x3e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+                  0x001110                  ___extendsfdf2
+ .libm.funpack    0x00114e         0x2a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+                  0x00114e                  __funpack
+ .libm.mulsi3     0x001178          0xc c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
+                  0x001178                  ___mulp32peds3
+                  0x001178                  ___mulsi3
+                  0x001178                  ___mulp32eds3
+ .libm.__PplusBdi
+                  0x001184         0x26 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.DA_o)
+ .libm.__PminusBdi
+                  0x0011aa         0x26 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.DA_o)
+ .libm.__udivmoddi3
+                  0x0011d0         0xe6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.DA_o)
+                  0x0011d0                  ___udivmoddi3
+ .libm.__udivdi3
+                  0x0012b6          0xe c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.DA_o)
+                  0x0012b6                  ___udivdi3
+ .libm.__umoddi3
+                  0x0012c4          0x8 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.DA_o)
+                  0x0012c4                  ___umoddi3
+ .libm.__divdi3
+                  0x0012cc         0x60 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.DA_o)
+                  0x0012cc                  ___divdi3
+ .libm.__moddi3
+                  0x00132c         0x5c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.DA_o)
+                  0x00132c                  ___moddi3
+
+usercode
+ *(usercode)
+
+__CONFIG4
+ *(__CONFIG4.sec*)
+
+__CONFIG3
+ *(__CONFIG3.sec*)
+
+__CONFIG2
+ *(__CONFIG2.sec*)
+
+__CONFIG1
+ *(__CONFIG1.sec*)
+
+.comment
+ *(.comment)
+
+.debug_info       0x000000       0xdda5
+ *(.debug_info)
+ .debug_info      0x000000        0x227 build/default/production/src/app/taskBlinky.o
+ .debug_info      0x000227        0x3a1 build/default/production/src/app/taskSerial.o
+ .debug_info      0x0005c8        0x3d1 build/default/production/src/app/taskPwm.o
+ .debug_info      0x000999        0x947 build/default/production/FreeRTOS/Source/croutine.o
+ .debug_info      0x0012e0        0x904 build/default/production/FreeRTOS/Source/event_groups.o
+ .debug_info      0x001be4        0x461 build/default/production/FreeRTOS/Source/list.o
+ .debug_info      0x002045       0x18f0 build/default/production/FreeRTOS/Source/queue.o
+ .debug_info      0x003935        0xff1 build/default/production/FreeRTOS/Source/stream_buffer.o
+ .debug_info      0x004926       0x22f0 build/default/production/FreeRTOS/Source/tasks.o
+ .debug_info      0x006c16       0x10c9 build/default/production/FreeRTOS/Source/timers.o
+ .debug_info      0x007cdf        0x72e build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+ .debug_info      0x00840d        0xc89 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+ .debug_info      0x009096         0xbc build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.o
+ .debug_info      0x009152        0x3a1 build/default/production/mcc_generated_files/traps.o
+ .debug_info      0x0094f3        0x9d0 build/default/production/mcc_generated_files/pin_manager.o
+ .debug_info      0x009ec3        0x338 build/default/production/mcc_generated_files/system.o
+ .debug_info      0x00a1fb        0x2ea build/default/production/mcc_generated_files/clock.o
+ .debug_info      0x00a4e5        0x16c build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_info      0x00a651        0x7bc build/default/production/mcc_generated_files/uart1.o
+ .debug_info      0x00ae0d        0xa1c build/default/production/mcc_generated_files/oc3.o
+ .debug_info      0x00b829        0xa45 build/default/production/mcc_generated_files/oc2.o
+ .debug_info      0x00c26e        0xa45 build/default/production/mcc_generated_files/oc1.o
+ .debug_info      0x00ccb3        0x75c build/default/production/mcc_generated_files/tmr2.o
+ .debug_info      0x00d40f        0x48d build/default/production/src/main.o
+ .debug_info      0x00d89c        0x360 build/default/production/src/rtos_hooks.o
+ .debug_info      0x00dbfc         0x90 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+ .debug_info      0x00dc8c         0x8d c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+ .debug_info      0x00dd19         0x8c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev     0x000000       0x1bfd
+ *(.debug_abbrev)
+ .debug_abbrev    0x000000         0x91 build/default/production/src/app/taskBlinky.o
+ .debug_abbrev    0x000091         0xd2 build/default/production/src/app/taskSerial.o
+ .debug_abbrev    0x000163         0xdd build/default/production/src/app/taskPwm.o
+ .debug_abbrev    0x000240        0x207 build/default/production/FreeRTOS/Source/croutine.o
+ .debug_abbrev    0x000447        0x147 build/default/production/FreeRTOS/Source/event_groups.o
+ .debug_abbrev    0x00058e         0xe1 build/default/production/FreeRTOS/Source/list.o
+ .debug_abbrev    0x00066f        0x19b build/default/production/FreeRTOS/Source/queue.o
+ .debug_abbrev    0x00080a        0x14c build/default/production/FreeRTOS/Source/stream_buffer.o
+ .debug_abbrev    0x000956        0x248 build/default/production/FreeRTOS/Source/tasks.o
+ .debug_abbrev    0x000b9e        0x1ac build/default/production/FreeRTOS/Source/timers.o
+ .debug_abbrev    0x000d4a        0x157 build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+ .debug_abbrev    0x000ea1        0x1e3 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+ .debug_abbrev    0x001084         0x14 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.o
+ .debug_abbrev    0x001098        0x10d build/default/production/mcc_generated_files/traps.o
+ .debug_abbrev    0x0011a5         0xd6 build/default/production/mcc_generated_files/pin_manager.o
+ .debug_abbrev    0x00127b         0xb4 build/default/production/mcc_generated_files/system.o
+ .debug_abbrev    0x00132f         0x6a build/default/production/mcc_generated_files/clock.o
+ .debug_abbrev    0x001399          0x1 build/default/production/mcc_generated_files/mcc.o
+ .debug_abbrev    0x00139a         0x34 build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_abbrev    0x0013ce        0x102 build/default/production/mcc_generated_files/uart1.o
+ .debug_abbrev    0x0014d0        0x14f build/default/production/mcc_generated_files/oc3.o
+ .debug_abbrev    0x00161f        0x14f build/default/production/mcc_generated_files/oc2.o
+ .debug_abbrev    0x00176e        0x14f build/default/production/mcc_generated_files/oc1.o
+ .debug_abbrev    0x0018bd        0x148 build/default/production/mcc_generated_files/tmr2.o
+ .debug_abbrev    0x001a05         0xdd build/default/production/src/main.o
+ .debug_abbrev    0x001ae2         0xdf build/default/production/src/rtos_hooks.o
+ .debug_abbrev    0x001bc1         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+ .debug_abbrev    0x001bd5         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+ .debug_abbrev    0x001be9         0x14 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
+
+.debug_line       0x000000       0x295f
+ *(.debug_line)
+ .debug_line      0x000000         0xbc build/default/production/src/app/taskBlinky.o
+ .debug_line      0x0000bc         0xf2 build/default/production/src/app/taskSerial.o
+ .debug_line      0x0001ae        0x151 build/default/production/src/app/taskPwm.o
+ .debug_line      0x0002ff        0x1fc build/default/production/FreeRTOS/Source/croutine.o
+ .debug_line      0x0004fb        0x1d7 build/default/production/FreeRTOS/Source/event_groups.o
+ .debug_line      0x0006d2        0x11f build/default/production/FreeRTOS/Source/list.o
+ .debug_line      0x0007f1        0x487 build/default/production/FreeRTOS/Source/queue.o
+ .debug_line      0x000c78        0x242 build/default/production/FreeRTOS/Source/stream_buffer.o
+ .debug_line      0x000eba        0x53c build/default/production/FreeRTOS/Source/tasks.o
+ .debug_line      0x0013f6        0x241 build/default/production/FreeRTOS/Source/timers.o
+ .debug_line      0x001637        0x19f build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+ .debug_line      0x0017d6        0x1b3 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+ .debug_line      0x001989         0x8f build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.o
+ .debug_line      0x001a18         0x1a build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC.o
+ .debug_line      0x001a32        0x14d build/default/production/mcc_generated_files/traps.o
+ .debug_line      0x001b7f        0x137 build/default/production/mcc_generated_files/pin_manager.o
+ .debug_line      0x001cb6        0x124 build/default/production/mcc_generated_files/system.o
+ .debug_line      0x001dda        0x128 build/default/production/mcc_generated_files/clock.o
+ .debug_line      0x001f02         0x1a build/default/production/mcc_generated_files/mcc.o
+ .debug_line      0x001f1c         0x55 build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_line      0x001f71        0x148 build/default/production/mcc_generated_files/uart1.o
+ .debug_line      0x0020b9        0x169 build/default/production/mcc_generated_files/oc3.o
+ .debug_line      0x002222        0x169 build/default/production/mcc_generated_files/oc2.o
+ .debug_line      0x00238b        0x169 build/default/production/mcc_generated_files/oc1.o
+ .debug_line      0x0024f4        0x145 build/default/production/mcc_generated_files/tmr2.o
+ .debug_line      0x002639        0x109 build/default/production/src/main.o
+ .debug_line      0x002742        0x140 build/default/production/src/rtos_hooks.o
+ .debug_line      0x002882         0x59 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+ .debug_line      0x0028db         0x4a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+ .debug_line      0x002925         0x3a c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
+
+.debug_frame      0x000000       0x1d9e
+ *(.debug_frame)
+ .debug_frame     0x000000         0x62 build/default/production/src/app/taskBlinky.o
+ .debug_frame     0x000062         0xee build/default/production/src/app/taskSerial.o
+ .debug_frame     0x000150         0x62 build/default/production/src/app/taskPwm.o
+ .debug_frame     0x0001b2         0xca build/default/production/FreeRTOS/Source/croutine.o
+ .debug_frame     0x00027c        0x14c build/default/production/FreeRTOS/Source/event_groups.o
+ .debug_frame     0x0003c8         0x96 build/default/production/FreeRTOS/Source/list.o
+ .debug_frame     0x00045e        0x3d6 build/default/production/FreeRTOS/Source/queue.o
+ .debug_frame     0x000834        0x236 build/default/production/FreeRTOS/Source/stream_buffer.o
+ .debug_frame     0x000a6a        0x548 build/default/production/FreeRTOS/Source/tasks.o
+ .debug_frame     0x000fb2        0x2b8 build/default/production/FreeRTOS/Source/timers.o
+ .debug_frame     0x00126a        0x106 build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+ .debug_frame     0x001370         0xf6 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+ .debug_frame     0x001466        0x140 build/default/production/mcc_generated_files/traps.o
+ .debug_frame     0x0015a6         0x2e build/default/production/mcc_generated_files/pin_manager.o
+ .debug_frame     0x0015d4         0x2e build/default/production/mcc_generated_files/system.o
+ .debug_frame     0x001602         0x2e build/default/production/mcc_generated_files/clock.o
+ .debug_frame     0x001630         0x2e build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_frame     0x00165e         0xfe build/default/production/mcc_generated_files/uart1.o
+ .debug_frame     0x00175c        0x166 build/default/production/mcc_generated_files/oc3.o
+ .debug_frame     0x0018c2        0x166 build/default/production/mcc_generated_files/oc2.o
+ .debug_frame     0x001a28        0x166 build/default/production/mcc_generated_files/oc1.o
+ .debug_frame     0x001b8e        0x132 build/default/production/mcc_generated_files/tmr2.o
+ .debug_frame     0x001cc0         0x7c build/default/production/src/main.o
+ .debug_frame     0x001d3c         0x62 build/default/production/src/rtos_hooks.o
+
+.debug_str        0x000000        0x90b
+ *(.debug_str)
+ .debug_str       0x000000          0x9 build/default/production/src/app/taskPwm.o
+ .debug_str       0x000009         0x50 build/default/production/FreeRTOS/Source/croutine.o
+ .debug_str       0x000059         0xe6 build/default/production/FreeRTOS/Source/event_groups.o
+ .debug_str       0x00013f         0x2b build/default/production/FreeRTOS/Source/list.o
+ .debug_str       0x00016a        0x18d build/default/production/FreeRTOS/Source/queue.o
+ .debug_str       0x0002f7        0x167 build/default/production/FreeRTOS/Source/stream_buffer.o
+ .debug_str       0x00045e        0x1e0 build/default/production/FreeRTOS/Source/tasks.o
+ .debug_str       0x00063e        0x11a build/default/production/FreeRTOS/Source/timers.o
+ .debug_str       0x000758         0x57 build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+ .debug_str       0x0007af         0x37 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+ .debug_str       0x0007e6          0xc build/default/production/mcc_generated_files/traps.o
+ .debug_str       0x0007f2         0x2a build/default/production/mcc_generated_files/pin_manager.o
+ .debug_str       0x00081c          0xc build/default/production/mcc_generated_files/system.o
+ .debug_str       0x000828         0x1c build/default/production/mcc_generated_files/clock.o
+ .debug_str       0x000844         0x15 build/default/production/mcc_generated_files/uart1.o
+ .debug_str       0x000859         0x2a build/default/production/mcc_generated_files/oc3.o
+ .debug_str       0x000883         0x2a build/default/production/mcc_generated_files/oc2.o
+ .debug_str       0x0008ad         0x2a build/default/production/mcc_generated_files/oc1.o
+ .debug_str       0x0008d7         0x13 build/default/production/mcc_generated_files/tmr2.o
+ .debug_str       0x0008ea         0x21 build/default/production/src/main.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubnames
+                  0x000000       0x1587
+ *(.debug_pubnames)
+ .debug_pubnames
+                  0x000000         0x26 build/default/production/src/app/taskBlinky.o
+ .debug_pubnames
+                  0x000026         0x26 build/default/production/src/app/taskSerial.o
+ .debug_pubnames
+                  0x00004c         0x23 build/default/production/src/app/taskPwm.o
+ .debug_pubnames
+                  0x00006f         0x96 build/default/production/FreeRTOS/Source/croutine.o
+ .debug_pubnames
+                  0x000105         0xf8 build/default/production/FreeRTOS/Source/event_groups.o
+ .debug_pubnames
+                  0x0001fd         0x72 build/default/production/FreeRTOS/Source/list.o
+ .debug_pubnames
+                  0x00026f        0x2bf build/default/production/FreeRTOS/Source/queue.o
+ .debug_pubnames
+                  0x00052e        0x1d6 build/default/production/FreeRTOS/Source/stream_buffer.o
+ .debug_pubnames
+                  0x000704        0x485 build/default/production/FreeRTOS/Source/tasks.o
+ .debug_pubnames
+                  0x000b89        0x181 build/default/production/FreeRTOS/Source/timers.o
+ .debug_pubnames
+                  0x000d0a         0xaf build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+ .debug_pubnames
+                  0x000db9         0xd6 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+ .debug_pubnames
+                  0x000e8f         0x6f build/default/production/mcc_generated_files/traps.o
+ .debug_pubnames
+                  0x000efe         0x2d build/default/production/mcc_generated_files/pin_manager.o
+ .debug_pubnames
+                  0x000f2b         0x28 build/default/production/mcc_generated_files/system.o
+ .debug_pubnames
+                  0x000f53         0x27 build/default/production/mcc_generated_files/clock.o
+ .debug_pubnames
+                  0x000f7a         0x2b build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_pubnames
+                  0x000fa5         0xb8 build/default/production/mcc_generated_files/uart1.o
+ .debug_pubnames
+                  0x00105d        0x12d build/default/production/mcc_generated_files/oc3.o
+ .debug_pubnames
+                  0x00118a        0x12d build/default/production/mcc_generated_files/oc2.o
+ .debug_pubnames
+                  0x0012b7        0x12d build/default/production/mcc_generated_files/oc1.o
+ .debug_pubnames
+                  0x0013e4        0x11a build/default/production/mcc_generated_files/tmr2.o
+ .debug_pubnames
+                  0x0014fe         0x1b build/default/production/src/main.o
+ .debug_pubnames
+                  0x001519         0x6e build/default/production/src/rtos_hooks.o
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_aranges    0x000000        0x2c0
+ *(.debug_aranges)
+ .debug_aranges
+                  0x000000         0x18 build/default/production/src/app/taskBlinky.o
+ .debug_aranges
+                  0x000018         0x18 build/default/production/src/app/taskSerial.o
+ .debug_aranges
+                  0x000030         0x18 build/default/production/src/app/taskPwm.o
+ .debug_aranges
+                  0x000048         0x18 build/default/production/FreeRTOS/Source/croutine.o
+ .debug_aranges
+                  0x000060         0x18 build/default/production/FreeRTOS/Source/event_groups.o
+ .debug_aranges
+                  0x000078         0x18 build/default/production/FreeRTOS/Source/list.o
+ .debug_aranges
+                  0x000090         0x18 build/default/production/FreeRTOS/Source/queue.o
+ .debug_aranges
+                  0x0000a8         0x18 build/default/production/FreeRTOS/Source/stream_buffer.o
+ .debug_aranges
+                  0x0000c0         0x18 build/default/production/FreeRTOS/Source/tasks.o
+ .debug_aranges
+                  0x0000d8         0x18 build/default/production/FreeRTOS/Source/timers.o
+ .debug_aranges
+                  0x0000f0         0x18 build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+ .debug_aranges
+                  0x000108         0x18 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+ .debug_aranges
+                  0x000120         0x20 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.o
+ .debug_aranges
+                  0x000140         0x18 build/default/production/mcc_generated_files/traps.o
+ .debug_aranges
+                  0x000158         0x18 build/default/production/mcc_generated_files/pin_manager.o
+ .debug_aranges
+                  0x000170         0x18 build/default/production/mcc_generated_files/system.o
+ .debug_aranges
+                  0x000188         0x18 build/default/production/mcc_generated_files/clock.o
+ .debug_aranges
+                  0x0001a0         0x18 build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_aranges
+                  0x0001b8         0x18 build/default/production/mcc_generated_files/uart1.o
+ .debug_aranges
+                  0x0001d0         0x18 build/default/production/mcc_generated_files/oc3.o
+ .debug_aranges
+                  0x0001e8         0x18 build/default/production/mcc_generated_files/oc2.o
+ .debug_aranges
+                  0x000200         0x18 build/default/production/mcc_generated_files/oc1.o
+ .debug_aranges
+                  0x000218         0x18 build/default/production/mcc_generated_files/tmr2.o
+ .debug_aranges
+                  0x000230         0x18 build/default/production/src/main.o
+ .debug_aranges
+                  0x000248         0x18 build/default/production/src/rtos_hooks.o
+ .debug_aranges
+                  0x000260         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+ .debug_aranges
+                  0x000280         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+ .debug_aranges
+                  0x0002a0         0x20 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
+                    0x0000                  WREG0 = 0x0
+                    0x0000                  _WREG0 = 0x0
+                    0x0002                  WREG1 = 0x2
+                    0x0002                  _WREG1 = 0x2
+                    0x0004                  WREG2 = 0x4
+                    0x0004                  _WREG2 = 0x4
+                    0x0006                  WREG3 = 0x6
+                    0x0006                  _WREG3 = 0x6
+                    0x0008                  WREG4 = 0x8
+                    0x0008                  _WREG4 = 0x8
+                    0x000a                  WREG5 = 0xa
+                    0x000a                  _WREG5 = 0xa
+                    0x000c                  WREG6 = 0xc
+                    0x000c                  _WREG6 = 0xc
+                    0x000e                  WREG7 = 0xe
+                    0x000e                  _WREG7 = 0xe
+                    0x0010                  WREG8 = 0x10
+                    0x0010                  _WREG8 = 0x10
+                    0x0012                  WREG9 = 0x12
+                    0x0012                  _WREG9 = 0x12
+                    0x0014                  WREG10 = 0x14
+                    0x0014                  _WREG10 = 0x14
+                    0x0016                  WREG11 = 0x16
+                    0x0016                  _WREG11 = 0x16
+                    0x0018                  WREG12 = 0x18
+                    0x0018                  _WREG12 = 0x18
+                    0x001a                  WREG13 = 0x1a
+                    0x001a                  _WREG13 = 0x1a
+                    0x001c                  WREG14 = 0x1c
+                    0x001c                  _WREG14 = 0x1c
+                    0x001e                  WREG15 = 0x1e
+                    0x001e                  _WREG15 = 0x1e
+                    0x0020                  SPLIM = 0x20
+                    0x0020                  _SPLIM = 0x20
+                    0x002e                  PCL = 0x2e
+                    0x002e                  _PCL = 0x2e
+                    0x0030                  PCH = 0x30
+                    0x0030                  _PCH = 0x30
+                    0x0032                  DSRPAG = 0x32
+                    0x0032                  _DSRPAG = 0x32
+                    0x0032                  _DSRPAGbits = 0x32
+                    0x0034                  DSWPAG = 0x34
+                    0x0034                  _DSWPAG = 0x34
+                    0x0034                  _DSWPAGbits = 0x34
+                    0x0036                  RCOUNT = 0x36
+                    0x0036                  _RCOUNT = 0x36
+                    0x0042                  SR = 0x42
+                    0x0042                  _SR = 0x42
+                    0x0042                  _SRbits = 0x42
+                    0x0044                  CORCON = 0x44
+                    0x0044                  _CORCON = 0x44
+                    0x0044                  _CORCONbits = 0x44
+                    0x0052                  DISICNT = 0x52
+                    0x0052                  _DISICNT = 0x52
+                    0x0052                  _DISICNTbits = 0x52
+                    0x0054                  TBLPAG = 0x54
+                    0x0054                  _TBLPAG = 0x54
+                    0x0054                  _TBLPAGbits = 0x54
+                    0x0056                  CNPD1 = 0x56
+                    0x0056                  _CNPD1 = 0x56
+                    0x0056                  _CNPD1bits = 0x56
+                    0x0058                  CNPD2 = 0x58
+                    0x0058                  _CNPD2 = 0x58
+                    0x0058                  _CNPD2bits = 0x58
+                    0x005a                  CNPD3 = 0x5a
+                    0x005a                  _CNPD3 = 0x5a
+                    0x0062                  CNEN1 = 0x62
+                    0x0062                  _CNEN1 = 0x62
+                    0x0062                  _CNEN1bits = 0x62
+                    0x0064                  CNEN2 = 0x64
+                    0x0064                  _CNEN2 = 0x64
+                    0x0064                  _CNEN2bits = 0x64
+                    0x0066                  CNEN3 = 0x66
+                    0x0066                  _CNEN3 = 0x66
+                    0x006e                  CNPU1 = 0x6e
+                    0x006e                  _CNPU1 = 0x6e
+                    0x006e                  _CNPU1bits = 0x6e
+                    0x0070                  CNPU2 = 0x70
+                    0x0070                  _CNPU2 = 0x70
+                    0x0070                  _CNPU2bits = 0x70
+                    0x0072                  CNPU3 = 0x72
+                    0x0072                  _CNPU3 = 0x72
+                    0x0080                  INTCON1 = 0x80
+                    0x0080                  _INTCON1 = 0x80
+                    0x0080                  _INTCON1bits = 0x80
+                    0x0082                  INTCON2 = 0x82
+                    0x0082                  _INTCON2 = 0x82
+                    0x0082                  _INTCON2bits = 0x82
+                    0x0084                  IFS0 = 0x84
+                    0x0084                  _IFS0 = 0x84
+                    0x0084                  _IFS0bits = 0x84
+                    0x0086                  IFS1 = 0x86
+                    0x0086                  _IFS1 = 0x86
+                    0x0086                  _IFS1bits = 0x86
+                    0x0088                  IFS2 = 0x88
+                    0x0088                  _IFS2 = 0x88
+                    0x0088                  _IFS2bits = 0x88
+                    0x008a                  IFS3 = 0x8a
+                    0x008a                  _IFS3 = 0x8a
+                    0x008a                  _IFS3bits = 0x8a
+                    0x008c                  IFS4 = 0x8c
+                    0x008c                  _IFS4 = 0x8c
+                    0x008c                  _IFS4bits = 0x8c
+                    0x008e                  IFS5 = 0x8e
+                    0x008e                  _IFS5 = 0x8e
+                    0x008e                  _IFS5bits = 0x8e
+                    0x0090                  IFS6 = 0x90
+                    0x0090                  _IFS6 = 0x90
+                    0x0090                  _IFS6bits = 0x90
+                    0x0092                  IFS7 = 0x92
+                    0x0092                  _IFS7 = 0x92
+                    0x0092                  _IFS7bits = 0x92
+                    0x0094                  IEC0 = 0x94
+                    0x0094                  _IEC0 = 0x94
+                    0x0094                  _IEC0bits = 0x94
+                    0x0096                  IEC1 = 0x96
+                    0x0096                  _IEC1 = 0x96
+                    0x0096                  _IEC1bits = 0x96
+                    0x0098                  IEC2 = 0x98
+                    0x0098                  _IEC2 = 0x98
+                    0x0098                  _IEC2bits = 0x98
+                    0x009a                  IEC3 = 0x9a
+                    0x009a                  _IEC3 = 0x9a
+                    0x009a                  _IEC3bits = 0x9a
+                    0x009c                  IEC4 = 0x9c
+                    0x009c                  _IEC4 = 0x9c
+                    0x009c                  _IEC4bits = 0x9c
+                    0x009e                  IEC5 = 0x9e
+                    0x009e                  _IEC5 = 0x9e
+                    0x009e                  _IEC5bits = 0x9e
+                    0x00a0                  IEC6 = 0xa0
+                    0x00a0                  _IEC6 = 0xa0
+                    0x00a0                  _IEC6bits = 0xa0
+                    0x00a2                  IEC7 = 0xa2
+                    0x00a2                  _IEC7 = 0xa2
+                    0x00a2                  _IEC7bits = 0xa2
+                    0x00a4                  IPC0 = 0xa4
+                    0x00a4                  _IPC0 = 0xa4
+                    0x00a4                  _IPC0bits = 0xa4
+                    0x00a6                  IPC1 = 0xa6
+                    0x00a6                  _IPC1 = 0xa6
+                    0x00a6                  _IPC1bits = 0xa6
+                    0x00a8                  IPC2 = 0xa8
+                    0x00a8                  _IPC2 = 0xa8
+                    0x00a8                  _IPC2bits = 0xa8
+                    0x00aa                  IPC3 = 0xaa
+                    0x00aa                  _IPC3 = 0xaa
+                    0x00aa                  _IPC3bits = 0xaa
+                    0x00ac                  IPC4 = 0xac
+                    0x00ac                  _IPC4 = 0xac
+                    0x00ac                  _IPC4bits = 0xac
+                    0x00ae                  IPC5 = 0xae
+                    0x00ae                  _IPC5 = 0xae
+                    0x00ae                  _IPC5bits = 0xae
+                    0x00b0                  IPC6 = 0xb0
+                    0x00b0                  _IPC6 = 0xb0
+                    0x00b0                  _IPC6bits = 0xb0
+                    0x00b2                  IPC7 = 0xb2
+                    0x00b2                  _IPC7 = 0xb2
+                    0x00b2                  _IPC7bits = 0xb2
+                    0x00b4                  IPC8 = 0xb4
+                    0x00b4                  _IPC8 = 0xb4
+                    0x00b4                  _IPC8bits = 0xb4
+                    0x00b6                  IPC9 = 0xb6
+                    0x00b6                  _IPC9 = 0xb6
+                    0x00b6                  _IPC9bits = 0xb6
+                    0x00b8                  IPC10 = 0xb8
+                    0x00b8                  _IPC10 = 0xb8
+                    0x00b8                  _IPC10bits = 0xb8
+                    0x00ba                  IPC11 = 0xba
+                    0x00ba                  _IPC11 = 0xba
+                    0x00ba                  _IPC11bits = 0xba
+                    0x00bc                  IPC12 = 0xbc
+                    0x00bc                  _IPC12 = 0xbc
+                    0x00bc                  _IPC12bits = 0xbc
+                    0x00be                  IPC13 = 0xbe
+                    0x00be                  _IPC13 = 0xbe
+                    0x00be                  _IPC13bits = 0xbe
+                    0x00c0                  IPC14 = 0xc0
+                    0x00c0                  _IPC14 = 0xc0
+                    0x00c0                  _IPC14bits = 0xc0
+                    0x00c2                  IPC15 = 0xc2
+                    0x00c2                  _IPC15 = 0xc2
+                    0x00c2                  _IPC15bits = 0xc2
+                    0x00c4                  IPC16 = 0xc4
+                    0x00c4                  _IPC16 = 0xc4
+                    0x00c4                  _IPC16bits = 0xc4
+                    0x00c8                  IPC18 = 0xc8
+                    0x00c8                  _IPC18 = 0xc8
+                    0x00c8                  _IPC18bits = 0xc8
+                    0x00ca                  IPC19 = 0xca
+                    0x00ca                  _IPC19 = 0xca
+                    0x00ca                  _IPC19bits = 0xca
+                    0x00cc                  IPC20 = 0xcc
+                    0x00cc                  _IPC20 = 0xcc
+                    0x00cc                  _IPC20bits = 0xcc
+                    0x00ce                  IPC21 = 0xce
+                    0x00ce                  _IPC21 = 0xce
+                    0x00ce                  _IPC21bits = 0xce
+                    0x00d0                  IPC22 = 0xd0
+                    0x00d0                  _IPC22 = 0xd0
+                    0x00d0                  _IPC22bits = 0xd0
+                    0x00d2                  IPC23 = 0xd2
+                    0x00d2                  _IPC23 = 0xd2
+                    0x00d6                  IPC25 = 0xd6
+                    0x00d6                  _IPC25 = 0xd6
+                    0x00d8                  IPC26 = 0xd8
+                    0x00d8                  _IPC26 = 0xd8
+                    0x00d8                  _IPC26bits = 0xd8
+                    0x00de                  IPC29 = 0xde
+                    0x00de                  _IPC29 = 0xde
+                    0x00de                  _IPC29bits = 0xde
+                    0x00e0                  INTTREG = 0xe0
+                    0x00e0                  _INTTREG = 0xe0
+                    0x00e0                  _INTTREGbits = 0xe0
+                    0x0100                  OSCCON = 0x100
+                    0x0100                  _OSCCON = 0x100
+                    0x0100                  _OSCCONbits = 0x100
+                    0x0100                  OSCCONL = 0x100
+                    0x0100                  _OSCCONL = 0x100
+                    0x0101                  OSCCONH = 0x101
+                    0x0101                  _OSCCONH = 0x101
+                    0x0102                  CLKDIV = 0x102
+                    0x0102                  _CLKDIV = 0x102
+                    0x0102                  _CLKDIVbits = 0x102
+                    0x0106                  OSCTUN = 0x106
+                    0x0106                  _OSCTUN = 0x106
+                    0x0106                  _OSCTUNbits = 0x106
+                    0x0108                  RCON = 0x108
+                    0x0108                  _RCON = 0x108
+                    0x0108                  _RCONbits = 0x108
+                    0x010a                  RCON2 = 0x10a
+                    0x010a                  _RCON2 = 0x10a
+                    0x010a                  _RCON2bits = 0x10a
+                    0x010c                  HLVDCON = 0x10c
+                    0x010c                  _HLVDCON = 0x10c
+                    0x010c                  _HLVDCONbits = 0x10c
+                    0x010e                  DSCON = 0x10e
+                    0x010e                  _DSCON = 0x10e
+                    0x010e                  _DSCONbits = 0x10e
+                    0x0110                  DSWAKE = 0x110
+                    0x0110                  _DSWAKE = 0x110
+                    0x0110                  _DSWAKEbits = 0x110
+                    0x0112                  DSGPR0 = 0x112
+                    0x0112                  _DSGPR0 = 0x112
+                    0x0114                  DSGPR1 = 0x114
+                    0x0114                  _DSGPR1 = 0x114
+                    0x011e                  ALRMVAL = 0x11e
+                    0x011e                  _ALRMVAL = 0x11e
+                    0x0120                  ALCFGRPT = 0x120
+                    0x0120                  _ALCFGRPT = 0x120
+                    0x0120                  _ALCFGRPTbits = 0x120
+                    0x0122                  RTCVAL = 0x122
+                    0x0122                  _RTCVAL = 0x122
+                    0x0124                  RCFGCAL = 0x124
+                    0x0124                  _RCFGCAL = 0x124
+                    0x0124                  _RCFGCALbits = 0x124
+                    0x0126                  RTCPWC = 0x126
+                    0x0126                  _RTCPWC = 0x126
+                    0x0126                  _RTCPWCbits = 0x126
+                    0x0158                  CRCCON1 = 0x158
+                    0x0158                  _CRCCON1 = 0x158
+                    0x0158                  _CRCCON1bits = 0x158
+                    0x015a                  CRCCON2 = 0x15a
+                    0x015a                  _CRCCON2 = 0x15a
+                    0x015a                  _CRCCON2bits = 0x15a
+                    0x015c                  CRCXORL = 0x15c
+                    0x015c                  _CRCXORL = 0x15c
+                    0x015c                  _CRCXORLbits = 0x15c
+                    0x015e                  CRCXORH = 0x15e
+                    0x015e                  _CRCXORH = 0x15e
+                    0x015e                  _CRCXORHbits = 0x15e
+                    0x0160                  CRCDAT = 0x160
+                    0x0160                  _CRCDAT = 0x160
+                    0x0160                  CRCDATL = 0x160
+                    0x0160                  _CRCDATL = 0x160
+                    0x0162                  CRCDATH = 0x162
+                    0x0162                  _CRCDATH = 0x162
+                    0x0164                  CRCWDAT = 0x164
+                    0x0164                  _CRCWDAT = 0x164
+                    0x0164                  CRCWDATL = 0x164
+                    0x0164                  _CRCWDATL = 0x164
+                    0x0166                  CRCWDATH = 0x166
+                    0x0166                  _CRCWDATH = 0x166
+                    0x0168                  REFOCON1 = 0x168
+                    0x0168                  _REFOCON1 = 0x168
+                    0x0168                  _REFOCON1bits = 0x168
+                    0x0168                  REFOCONL = 0x168
+                    0x0168                  _REFOCONL = 0x168
+                    0x0168                  _REFOCONLbits = 0x168
+                    0x016a                  REFOCON2 = 0x16a
+                    0x016a                  _REFOCON2 = 0x16a
+                    0x016a                  _REFOCON2bits = 0x16a
+                    0x016a                  REFOCONH = 0x16a
+                    0x016a                  _REFOCONH = 0x16a
+                    0x016a                  _REFOCONHbits = 0x16a
+                    0x016e                  REFOTRIMH = 0x16e
+                    0x016e                  _REFOTRIMH = 0x16e
+                    0x016e                  _REFOTRIMHbits = 0x16e
+                    0x0170                  PMD1 = 0x170
+                    0x0170                  _PMD1 = 0x170
+                    0x0170                  _PMD1bits = 0x170
+                    0x0172                  PMD2 = 0x172
+                    0x0172                  _PMD2 = 0x172
+                    0x0172                  _PMD2bits = 0x172
+                    0x0174                  PMD3 = 0x174
+                    0x0174                  _PMD3 = 0x174
+                    0x0174                  _PMD3bits = 0x174
+                    0x0176                  PMD4 = 0x176
+                    0x0176                  _PMD4 = 0x176
+                    0x0176                  _PMD4bits = 0x176
+                    0x0178                  PMD5 = 0x178
+                    0x0178                  _PMD5 = 0x178
+                    0x017a                  PMD6 = 0x17a
+                    0x017a                  _PMD6 = 0x17a
+                    0x017a                  _PMD6bits = 0x17a
+                    0x017c                  PMD7 = 0x17c
+                    0x017c                  _PMD7 = 0x17c
+                    0x017c                  _PMD7bits = 0x17c
+                    0x017e                  PMD8 = 0x17e
+                    0x017e                  _PMD8 = 0x17e
+                    0x017e                  _PMD8bits = 0x17e
+                    0x0180                  TRISA = 0x180
+                    0x0180                  _TRISA = 0x180
+                    0x0180                  _TRISAbits = 0x180
+                    0x0182                  PORTA = 0x182
+                    0x0182                  _PORTA = 0x182
+                    0x0182                  _PORTAbits = 0x182
+                    0x0184                  LATA = 0x184
+                    0x0184                  _LATA = 0x184
+                    0x0184                  _LATAbits = 0x184
+                    0x0186                  ODCA = 0x186
+                    0x0186                  _ODCA = 0x186
+                    0x0186                  _ODCAbits = 0x186
+                    0x0188                  ANSA = 0x188
+                    0x0188                  _ANSA = 0x188
+                    0x0188                  _ANSAbits = 0x188
+                    0x0188                  ANSELA = 0x188
+                    0x0188                  _ANSELA = 0x188
+                    0x0188                  _ANSELAbits = 0x188
+                    0x018a                  TRISB = 0x18a
+                    0x018a                  _TRISB = 0x18a
+                    0x018a                  _TRISBbits = 0x18a
+                    0x018c                  PORTB = 0x18c
+                    0x018c                  _PORTB = 0x18c
+                    0x018c                  _PORTBbits = 0x18c
+                    0x018e                  LATB = 0x18e
+                    0x018e                  _LATB = 0x18e
+                    0x018e                  _LATBbits = 0x18e
+                    0x0190                  ODCB = 0x190
+                    0x0190                  _ODCB = 0x190
+                    0x0190                  _ODCBbits = 0x190
+                    0x0192                  ANSB = 0x192
+                    0x0192                  _ANSB = 0x192
+                    0x0192                  _ANSBbits = 0x192
+                    0x0192                  ANSELB = 0x192
+                    0x0192                  _ANSELB = 0x192
+                    0x0192                  _ANSELBbits = 0x192
+                    0x019e                  ANCFG = 0x19e
+                    0x019e                  _ANCFG = 0x19e
+                    0x019e                  _ANCFGbits = 0x19e
+                    0x01a4                  CRYCON1 = 0x1a4
+                    0x01a4                  _CRYCON1 = 0x1a4
+                    0x01a4                  _CRYCON1bits = 0x1a4
+                    0x01a4                  CRYCONL = 0x1a4
+                    0x01a4                  _CRYCONL = 0x1a4
+                    0x01a4                  _CRYCONLbits = 0x1a4
+                    0x01a6                  CRYCON2 = 0x1a6
+                    0x01a6                  _CRYCON2 = 0x1a6
+                    0x01a6                  _CRYCON2bits = 0x1a6
+                    0x01a6                  CRYCONH = 0x1a6
+                    0x01a6                  _CRYCONH = 0x1a6
+                    0x01a6                  _CRYCONHbits = 0x1a6
+                    0x01a8                  CRYSTAT = 0x1a8
+                    0x01a8                  _CRYSTAT = 0x1a8
+                    0x01a8                  _CRYSTATbits = 0x1a8
+                    0x01ac                  CRYOTP = 0x1ac
+                    0x01ac                  _CRYOTP = 0x1ac
+                    0x01ac                  _CRYOTPbits = 0x1ac
+                    0x01b0                  CRYTXTA = 0x1b0
+                    0x01b0                  _CRYTXTA = 0x1b0
+                    0x01b0                  CRYTXTA0 = 0x1b0
+                    0x01b0                  _CRYTXTA0 = 0x1b0
+                    0x01b2                  CRYTXTA1 = 0x1b2
+                    0x01b2                  _CRYTXTA1 = 0x1b2
+                    0x01b4                  CRYTXTA2 = 0x1b4
+                    0x01b4                  _CRYTXTA2 = 0x1b4
+                    0x01b6                  CRYTXTA3 = 0x1b6
+                    0x01b6                  _CRYTXTA3 = 0x1b6
+                    0x01b8                  CRYTXTA4 = 0x1b8
+                    0x01b8                  _CRYTXTA4 = 0x1b8
+                    0x01ba                  CRYTXTA5 = 0x1ba
+                    0x01ba                  _CRYTXTA5 = 0x1ba
+                    0x01bc                  CRYTXTA6 = 0x1bc
+                    0x01bc                  _CRYTXTA6 = 0x1bc
+                    0x01be                  CRYTXTA7 = 0x1be
+                    0x01be                  _CRYTXTA7 = 0x1be
+                    0x01c0                  CRYKEY = 0x1c0
+                    0x01c0                  _CRYKEY = 0x1c0
+                    0x01c0                  CRYKEY0 = 0x1c0
+                    0x01c0                  _CRYKEY0 = 0x1c0
+                    0x01c2                  CRYKEY1 = 0x1c2
+                    0x01c2                  _CRYKEY1 = 0x1c2
+                    0x01c4                  CRYKEY2 = 0x1c4
+                    0x01c4                  _CRYKEY2 = 0x1c4
+                    0x01c6                  CRYKEY3 = 0x1c6
+                    0x01c6                  _CRYKEY3 = 0x1c6
+                    0x01c8                  CRYKEY4 = 0x1c8
+                    0x01c8                  _CRYKEY4 = 0x1c8
+                    0x01ca                  CRYKEY5 = 0x1ca
+                    0x01ca                  _CRYKEY5 = 0x1ca
+                    0x01cc                  CRYKEY6 = 0x1cc
+                    0x01cc                  _CRYKEY6 = 0x1cc
+                    0x01ce                  CRYKEY7 = 0x1ce
+                    0x01ce                  _CRYKEY7 = 0x1ce
+                    0x01d0                  CRYKEY8 = 0x1d0
+                    0x01d0                  _CRYKEY8 = 0x1d0
+                    0x01d2                  CRYKEY9 = 0x1d2
+                    0x01d2                  _CRYKEY9 = 0x1d2
+                    0x01d4                  CRYKEY10 = 0x1d4
+                    0x01d4                  _CRYKEY10 = 0x1d4
+                    0x01d6                  CRYKEY11 = 0x1d6
+                    0x01d6                  _CRYKEY11 = 0x1d6
+                    0x01d8                  CRYKEY12 = 0x1d8
+                    0x01d8                  _CRYKEY12 = 0x1d8
+                    0x01da                  CRYKEY13 = 0x1da
+                    0x01da                  _CRYKEY13 = 0x1da
+                    0x01dc                  CRYKEY14 = 0x1dc
+                    0x01dc                  _CRYKEY14 = 0x1dc
+                    0x01de                  CRYKEY15 = 0x1de
+                    0x01de                  _CRYKEY15 = 0x1de
+                    0x01e0                  CRYTXTB = 0x1e0
+                    0x01e0                  _CRYTXTB = 0x1e0
+                    0x01e0                  CRYTXTB0 = 0x1e0
+                    0x01e0                  _CRYTXTB0 = 0x1e0
+                    0x01e2                  CRYTXTB1 = 0x1e2
+                    0x01e2                  _CRYTXTB1 = 0x1e2
+                    0x01e4                  CRYTXTB2 = 0x1e4
+                    0x01e4                  _CRYTXTB2 = 0x1e4
+                    0x01e6                  CRYTXTB3 = 0x1e6
+                    0x01e6                  _CRYTXTB3 = 0x1e6
+                    0x01e8                  CRYTXTB4 = 0x1e8
+                    0x01e8                  _CRYTXTB4 = 0x1e8
+                    0x01ea                  CRYTXTB5 = 0x1ea
+                    0x01ea                  _CRYTXTB5 = 0x1ea
+                    0x01ec                  CRYTXTB6 = 0x1ec
+                    0x01ec                  _CRYTXTB6 = 0x1ec
+                    0x01ee                  CRYTXTB7 = 0x1ee
+                    0x01ee                  _CRYTXTB7 = 0x1ee
+                    0x01f0                  CRYTXTC = 0x1f0
+                    0x01f0                  _CRYTXTC = 0x1f0
+                    0x01f0                  CRYTXTC0 = 0x1f0
+                    0x01f0                  _CRYTXTC0 = 0x1f0
+                    0x01f2                  CRYTXTC1 = 0x1f2
+                    0x01f2                  _CRYTXTC1 = 0x1f2
+                    0x01f4                  CRYTXTC2 = 0x1f4
+                    0x01f4                  _CRYTXTC2 = 0x1f4
+                    0x01f6                  CRYTXTC3 = 0x1f6
+                    0x01f6                  _CRYTXTC3 = 0x1f6
+                    0x01f8                  CRYTXTC4 = 0x1f8
+                    0x01f8                  _CRYTXTC4 = 0x1f8
+                    0x01fa                  CRYTXTC5 = 0x1fa
+                    0x01fa                  _CRYTXTC5 = 0x1fa
+                    0x01fc                  CRYTXTC6 = 0x1fc
+                    0x01fc                  _CRYTXTC6 = 0x1fc
+                    0x01fe                  CRYTXTC7 = 0x1fe
+                    0x01fe                  _CRYTXTC7 = 0x1fe
+                    0x0200                  ADC1BUF0 = 0x200
+                    0x0200                  _ADC1BUF0 = 0x200
+                    0x0202                  ADC1BUF1 = 0x202
+                    0x0202                  _ADC1BUF1 = 0x202
+                    0x0204                  ADC1BUF2 = 0x204
+                    0x0204                  _ADC1BUF2 = 0x204
+                    0x0206                  ADC1BUF3 = 0x206
+                    0x0206                  _ADC1BUF3 = 0x206
+                    0x0208                  ADC1BUF4 = 0x208
+                    0x0208                  _ADC1BUF4 = 0x208
+                    0x020a                  ADC1BUF5 = 0x20a
+                    0x020a                  _ADC1BUF5 = 0x20a
+                    0x020c                  ADC1BUF6 = 0x20c
+                    0x020c                  _ADC1BUF6 = 0x20c
+                    0x020e                  ADC1BUF7 = 0x20e
+                    0x020e                  _ADC1BUF7 = 0x20e
+                    0x0210                  ADC1BUF8 = 0x210
+                    0x0210                  _ADC1BUF8 = 0x210
+                    0x0212                  ADC1BUF9 = 0x212
+                    0x0212                  _ADC1BUF9 = 0x212
+                    0x0214                  ADC1BUF10 = 0x214
+                    0x0214                  _ADC1BUF10 = 0x214
+                    0x0216                  ADC1BUF11 = 0x216
+                    0x0216                  _ADC1BUF11 = 0x216
+                    0x0218                  ADC1BUF12 = 0x218
+                    0x0218                  _ADC1BUF12 = 0x218
+                    0x021a                  ADC1BUF13 = 0x21a
+                    0x021a                  _ADC1BUF13 = 0x21a
+                    0x021c                  ADC1BUF14 = 0x21c
+                    0x021c                  _ADC1BUF14 = 0x21c
+                    0x021e                  ADC1BUF15 = 0x21e
+                    0x021e                  _ADC1BUF15 = 0x21e
+                    0x0220                  AD1CON1 = 0x220
+                    0x0220                  _AD1CON1 = 0x220
+                    0x0220                  _AD1CON1bits = 0x220
+                    0x0222                  AD1CON2 = 0x222
+                    0x0222                  _AD1CON2 = 0x222
+                    0x0222                  _AD1CON2bits = 0x222
+                    0x0224                  AD1CON3 = 0x224
+                    0x0224                  _AD1CON3 = 0x224
+                    0x0224                  _AD1CON3bits = 0x224
+                    0x0228                  AD1CHS = 0x228
+                    0x0228                  _AD1CHS = 0x228
+                    0x0228                  _AD1CHSbits = 0x228
+                    0x0228                  AD1CHS0 = 0x228
+                    0x0228                  _AD1CHS0 = 0x228
+                    0x0228                  _AD1CHS0bits = 0x228
+                    0x022a                  AD1CSSH = 0x22a
+                    0x022a                  _AD1CSSH = 0x22a
+                    0x022a                  _AD1CSSHbits = 0x22a
+                    0x022c                  AD1CSSL = 0x22c
+                    0x022c                  _AD1CSSL = 0x22c
+                    0x022c                  _AD1CSSLbits = 0x22c
+                    0x022e                  AD1CON4 = 0x22e
+                    0x022e                  _AD1CON4 = 0x22e
+                    0x022e                  _AD1CON4bits = 0x22e
+                    0x0230                  AD1CON5 = 0x230
+                    0x0230                  _AD1CON5 = 0x230
+                    0x0230                  _AD1CON5bits = 0x230
+                    0x0234                  AD1CHITL = 0x234
+                    0x0234                  _AD1CHITL = 0x234
+                    0x0234                  _AD1CHITLbits = 0x234
+                    0x0238                  AD1CTMENL = 0x238
+                    0x0238                  _AD1CTMENL = 0x238
+                    0x0238                  _AD1CTMENLbits = 0x238
+                    0x023a                  AD1DMBUF = 0x23a
+                    0x023a                  _AD1DMBUF = 0x23a
+                    0x023a                  AD1RESDMA = 0x23a
+                    0x023a                  _AD1RESDMA = 0x23a
+                    0x023c                  CTMUCON1 = 0x23c
+                    0x023c                  _CTMUCON1 = 0x23c
+                    0x023c                  _CTMUCON1bits = 0x23c
+                    0x023e                  CTMUCON2 = 0x23e
+                    0x023e                  _CTMUCON2 = 0x23e
+                    0x023e                  _CTMUCON2bits = 0x23e
+                    0x0240                  CTMUICON = 0x240
+                    0x0240                  _CTMUICON = 0x240
+                    0x0240                  _CTMUICONbits = 0x240
+                    0x0242                  CMSTAT = 0x242
+                    0x0242                  _CMSTAT = 0x242
+                    0x0242                  _CMSTATbits = 0x242
+                    0x0244                  CVRCON = 0x244
+                    0x0244                  _CVRCON = 0x244
+                    0x0244                  _CVRCONbits = 0x244
+                    0x0246                  CM1CON = 0x246
+                    0x0246                  _CM1CON = 0x246
+                    0x0246                  _CM1CONbits = 0x246
+                    0x0248                  CM2CON = 0x248
+                    0x0248                  _CM2CON = 0x248
+                    0x0248                  _CM2CONbits = 0x248
+                    0x024a                  CM3CON = 0x24a
+                    0x024a                  _CM3CON = 0x24a
+                    0x024a                  _CM3CONbits = 0x24a
+                    0x024c                  TMR1 = 0x24c
+                    0x024c                  _TMR1 = 0x24c
+                    0x024e                  PR1 = 0x24e
+                    0x024e                  _PR1 = 0x24e
+                    0x0250                  T1CON = 0x250
+                    0x0250                  _T1CON = 0x250
+                    0x0250                  _T1CONbits = 0x250
+                    0x0252                  TMR2 = 0x252
+                    0x0252                  _TMR2 = 0x252
+                    0x0254                  TMR3HLD = 0x254
+                    0x0254                  _TMR3HLD = 0x254
+                    0x0256                  TMR3 = 0x256
+                    0x0256                  _TMR3 = 0x256
+                    0x0258                  PR2 = 0x258
+                    0x0258                  _PR2 = 0x258
+                    0x025a                  PR3 = 0x25a
+                    0x025a                  _PR3 = 0x25a
+                    0x025c                  T2CON = 0x25c
+                    0x025c                  _T2CON = 0x25c
+                    0x025c                  _T2CONbits = 0x25c
+                    0x025e                  T3CON = 0x25e
+                    0x025e                  _T3CON = 0x25e
+                    0x025e                  _T3CONbits = 0x25e
+                    0x0260                  TMR4 = 0x260
+                    0x0260                  _TMR4 = 0x260
+                    0x0262                  TMR5HLD = 0x262
+                    0x0262                  _TMR5HLD = 0x262
+                    0x0264                  TMR5 = 0x264
+                    0x0264                  _TMR5 = 0x264
+                    0x0266                  PR4 = 0x266
+                    0x0266                  _PR4 = 0x266
+                    0x0268                  PR5 = 0x268
+                    0x0268                  _PR5 = 0x268
+                    0x026a                  T4CON = 0x26a
+                    0x026a                  _T4CON = 0x26a
+                    0x026a                  _T4CONbits = 0x26a
+                    0x026c                  T5CON = 0x26c
+                    0x026c                  _T5CON = 0x26c
+                    0x026c                  _T5CONbits = 0x26c
+                    0x026e                  OC1CON1 = 0x26e
+                    0x026e                  _OC1CON1 = 0x26e
+                    0x026e                  _OC1CON1bits = 0x26e
+                    0x0270                  OC1CON2 = 0x270
+                    0x0270                  _OC1CON2 = 0x270
+                    0x0270                  _OC1CON2bits = 0x270
+                    0x0272                  OC1RS = 0x272
+                    0x0272                  _OC1RS = 0x272
+                    0x0274                  OC1R = 0x274
+                    0x0274                  _OC1R = 0x274
+                    0x0276                  OC1TMR = 0x276
+                    0x0276                  _OC1TMR = 0x276
+                    0x0278                  OC2CON1 = 0x278
+                    0x0278                  _OC2CON1 = 0x278
+                    0x0278                  _OC2CON1bits = 0x278
+                    0x027a                  OC2CON2 = 0x27a
+                    0x027a                  _OC2CON2 = 0x27a
+                    0x027a                  _OC2CON2bits = 0x27a
+                    0x027c                  OC2RS = 0x27c
+                    0x027c                  _OC2RS = 0x27c
+                    0x027e                  OC2R = 0x27e
+                    0x027e                  _OC2R = 0x27e
+                    0x0280                  OC2TMR = 0x280
+                    0x0280                  _OC2TMR = 0x280
+                    0x0282                  OC3CON1 = 0x282
+                    0x0282                  _OC3CON1 = 0x282
+                    0x0282                  _OC3CON1bits = 0x282
+                    0x0284                  OC3CON2 = 0x284
+                    0x0284                  _OC3CON2 = 0x284
+                    0x0284                  _OC3CON2bits = 0x284
+                    0x0286                  OC3RS = 0x286
+                    0x0286                  _OC3RS = 0x286
+                    0x0288                  OC3R = 0x288
+                    0x0288                  _OC3R = 0x288
+                    0x028a                  OC3TMR = 0x28a
+                    0x028a                  _OC3TMR = 0x28a
+                    0x028c                  OC4CON1 = 0x28c
+                    0x028c                  _OC4CON1 = 0x28c
+                    0x028c                  _OC4CON1bits = 0x28c
+                    0x028e                  OC4CON2 = 0x28e
+                    0x028e                  _OC4CON2 = 0x28e
+                    0x028e                  _OC4CON2bits = 0x28e
+                    0x0290                  OC4RS = 0x290
+                    0x0290                  _OC4RS = 0x290
+                    0x0292                  OC4R = 0x292
+                    0x0292                  _OC4R = 0x292
+                    0x0294                  OC4TMR = 0x294
+                    0x0294                  _OC4TMR = 0x294
+                    0x0296                  OC5CON1 = 0x296
+                    0x0296                  _OC5CON1 = 0x296
+                    0x0296                  _OC5CON1bits = 0x296
+                    0x0298                  OC5CON2 = 0x298
+                    0x0298                  _OC5CON2 = 0x298
+                    0x0298                  _OC5CON2bits = 0x298
+                    0x029a                  OC5RS = 0x29a
+                    0x029a                  _OC5RS = 0x29a
+                    0x029c                  OC5R = 0x29c
+                    0x029c                  _OC5R = 0x29c
+                    0x029e                  OC5TMR = 0x29e
+                    0x029e                  _OC5TMR = 0x29e
+                    0x02a0                  OC6CON1 = 0x2a0
+                    0x02a0                  _OC6CON1 = 0x2a0
+                    0x02a0                  _OC6CON1bits = 0x2a0
+                    0x02a2                  OC6CON2 = 0x2a2
+                    0x02a2                  _OC6CON2 = 0x2a2
+                    0x02a2                  _OC6CON2bits = 0x2a2
+                    0x02a4                  OC6RS = 0x2a4
+                    0x02a4                  _OC6RS = 0x2a4
+                    0x02a6                  OC6R = 0x2a6
+                    0x02a6                  _OC6R = 0x2a6
+                    0x02a8                  OC6TMR = 0x2a8
+                    0x02a8                  _OC6TMR = 0x2a8
+                    0x02aa                  IC1CON1 = 0x2aa
+                    0x02aa                  _IC1CON1 = 0x2aa
+                    0x02aa                  _IC1CON1bits = 0x2aa
+                    0x02ac                  IC1CON2 = 0x2ac
+                    0x02ac                  _IC1CON2 = 0x2ac
+                    0x02ac                  _IC1CON2bits = 0x2ac
+                    0x02ae                  IC1BUF = 0x2ae
+                    0x02ae                  _IC1BUF = 0x2ae
+                    0x02b0                  IC1TMR = 0x2b0
+                    0x02b0                  _IC1TMR = 0x2b0
+                    0x02b2                  IC2CON1 = 0x2b2
+                    0x02b2                  _IC2CON1 = 0x2b2
+                    0x02b2                  _IC2CON1bits = 0x2b2
+                    0x02b4                  IC2CON2 = 0x2b4
+                    0x02b4                  _IC2CON2 = 0x2b4
+                    0x02b4                  _IC2CON2bits = 0x2b4
+                    0x02b6                  IC2BUF = 0x2b6
+                    0x02b6                  _IC2BUF = 0x2b6
+                    0x02b8                  IC2TMR = 0x2b8
+                    0x02b8                  _IC2TMR = 0x2b8
+                    0x02ba                  IC3CON1 = 0x2ba
+                    0x02ba                  _IC3CON1 = 0x2ba
+                    0x02ba                  _IC3CON1bits = 0x2ba
+                    0x02bc                  IC3CON2 = 0x2bc
+                    0x02bc                  _IC3CON2 = 0x2bc
+                    0x02bc                  _IC3CON2bits = 0x2bc
+                    0x02be                  IC3BUF = 0x2be
+                    0x02be                  _IC3BUF = 0x2be
+                    0x02c0                  IC3TMR = 0x2c0
+                    0x02c0                  _IC3TMR = 0x2c0
+                    0x02c2                  IC4CON1 = 0x2c2
+                    0x02c2                  _IC4CON1 = 0x2c2
+                    0x02c2                  _IC4CON1bits = 0x2c2
+                    0x02c4                  IC4CON2 = 0x2c4
+                    0x02c4                  _IC4CON2 = 0x2c4
+                    0x02c4                  _IC4CON2bits = 0x2c4
+                    0x02c6                  IC4BUF = 0x2c6
+                    0x02c6                  _IC4BUF = 0x2c6
+                    0x02c8                  IC4TMR = 0x2c8
+                    0x02c8                  _IC4TMR = 0x2c8
+                    0x02ca                  IC5CON1 = 0x2ca
+                    0x02ca                  _IC5CON1 = 0x2ca
+                    0x02ca                  _IC5CON1bits = 0x2ca
+                    0x02cc                  IC5CON2 = 0x2cc
+                    0x02cc                  _IC5CON2 = 0x2cc
+                    0x02cc                  _IC5CON2bits = 0x2cc
+                    0x02ce                  IC5BUF = 0x2ce
+                    0x02ce                  _IC5BUF = 0x2ce
+                    0x02d0                  IC5TMR = 0x2d0
+                    0x02d0                  _IC5TMR = 0x2d0
+                    0x02d2                  IC6CON1 = 0x2d2
+                    0x02d2                  _IC6CON1 = 0x2d2
+                    0x02d2                  _IC6CON1bits = 0x2d2
+                    0x02d4                  IC6CON2 = 0x2d4
+                    0x02d4                  _IC6CON2 = 0x2d4
+                    0x02d4                  _IC6CON2bits = 0x2d4
+                    0x02d6                  IC6BUF = 0x2d6
+                    0x02d6                  _IC6BUF = 0x2d6
+                    0x02d8                  IC6TMR = 0x2d8
+                    0x02d8                  _IC6TMR = 0x2d8
+                    0x02da                  I2C1RCV = 0x2da
+                    0x02da                  _I2C1RCV = 0x2da
+                    0x02da                  _I2C1RCVbits = 0x2da
+                    0x02dc                  I2C1TRN = 0x2dc
+                    0x02dc                  _I2C1TRN = 0x2dc
+                    0x02dc                  _I2C1TRNbits = 0x2dc
+                    0x02de                  I2C1BRG = 0x2de
+                    0x02de                  _I2C1BRG = 0x2de
+                    0x02e0                  I2C1CON1 = 0x2e0
+                    0x02e0                  _I2C1CON1 = 0x2e0
+                    0x02e0                  _I2C1CON1bits = 0x2e0
+                    0x02e0                  I2C1CONL = 0x2e0
+                    0x02e0                  _I2C1CONL = 0x2e0
+                    0x02e0                  _I2C1CONLbits = 0x2e0
+                    0x02e2                  I2C1CON2 = 0x2e2
+                    0x02e2                  _I2C1CON2 = 0x2e2
+                    0x02e2                  _I2C1CON2bits = 0x2e2
+                    0x02e2                  I2C1CONH = 0x2e2
+                    0x02e2                  _I2C1CONH = 0x2e2
+                    0x02e2                  _I2C1CONHbits = 0x2e2
+                    0x02e4                  I2C1STAT = 0x2e4
+                    0x02e4                  _I2C1STAT = 0x2e4
+                    0x02e4                  _I2C1STATbits = 0x2e4
+                    0x02e6                  I2C1ADD = 0x2e6
+                    0x02e6                  _I2C1ADD = 0x2e6
+                    0x02e6                  _I2C1ADDbits = 0x2e6
+                    0x02e8                  I2C1MSK = 0x2e8
+                    0x02e8                  _I2C1MSK = 0x2e8
+                    0x02e8                  _I2C1MSKbits = 0x2e8
+                    0x02ea                  I2C2RCV = 0x2ea
+                    0x02ea                  _I2C2RCV = 0x2ea
+                    0x02ea                  _I2C2RCVbits = 0x2ea
+                    0x02ec                  I2C2TRN = 0x2ec
+                    0x02ec                  _I2C2TRN = 0x2ec
+                    0x02ec                  _I2C2TRNbits = 0x2ec
+                    0x02ee                  I2C2BRG = 0x2ee
+                    0x02ee                  _I2C2BRG = 0x2ee
+                    0x02f0                  I2C2CON1 = 0x2f0
+                    0x02f0                  _I2C2CON1 = 0x2f0
+                    0x02f0                  _I2C2CON1bits = 0x2f0
+                    0x02f0                  I2C2CONL = 0x2f0
+                    0x02f0                  _I2C2CONL = 0x2f0
+                    0x02f0                  _I2C2CONLbits = 0x2f0
+                    0x02f2                  I2C2CON2 = 0x2f2
+                    0x02f2                  _I2C2CON2 = 0x2f2
+                    0x02f2                  _I2C2CON2bits = 0x2f2
+                    0x02f2                  I2C2CONH = 0x2f2
+                    0x02f2                  _I2C2CONH = 0x2f2
+                    0x02f2                  _I2C2CONHbits = 0x2f2
+                    0x02f4                  I2C2STAT = 0x2f4
+                    0x02f4                  _I2C2STAT = 0x2f4
+                    0x02f4                  _I2C2STATbits = 0x2f4
+                    0x02f6                  I2C2ADD = 0x2f6
+                    0x02f6                  _I2C2ADD = 0x2f6
+                    0x02f6                  _I2C2ADDbits = 0x2f6
+                    0x02f8                  I2C2MSK = 0x2f8
+                    0x02f8                  _I2C2MSK = 0x2f8
+                    0x02f8                  _I2C2MSKbits = 0x2f8
+                    0x02fa                  MDCON = 0x2fa
+                    0x02fa                  _MDCON = 0x2fa
+                    0x02fa                  _MDCONbits = 0x2fa
+                    0x02fc                  MDSRC = 0x2fc
+                    0x02fc                  _MDSRC = 0x2fc
+                    0x02fc                  _MDSRCbits = 0x2fc
+                    0x02fe                  MDCAR = 0x2fe
+                    0x02fe                  _MDCAR = 0x2fe
+                    0x02fe                  _MDCARbits = 0x2fe
+                    0x0300                  SPI1CON1 = 0x300
+                    0x0300                  _SPI1CON1 = 0x300
+                    0x0300                  _SPI1CON1bits = 0x300
+                    0x0300                  SPI1CON1L = 0x300
+                    0x0300                  _SPI1CON1L = 0x300
+                    0x0300                  _SPI1CON1Lbits = 0x300
+                    0x0302                  SPI1CON1H = 0x302
+                    0x0302                  _SPI1CON1H = 0x302
+                    0x0302                  _SPI1CON1Hbits = 0x302
+                    0x0302                  SPI1CON2 = 0x302
+                    0x0302                  _SPI1CON2 = 0x302
+                    0x0302                  _SPI1CON2bits = 0x302
+                    0x0304                  SPI1CON2L = 0x304
+                    0x0304                  _SPI1CON2L = 0x304
+                    0x0304                  _SPI1CON2Lbits = 0x304
+                    0x0304                  SPI1CON3 = 0x304
+                    0x0304                  _SPI1CON3 = 0x304
+                    0x0304                  _SPI1CON3bits = 0x304
+                    0x0306                  SPI1CON2H = 0x306
+                    0x0306                  _SPI1CON2H = 0x306
+                    0x0306                  SPI1CON4 = 0x306
+                    0x0306                  _SPI1CON4 = 0x306
+                    0x0308                  SPI1STATL = 0x308
+                    0x0308                  _SPI1STATL = 0x308
+                    0x0308                  _SPI1STATLbits = 0x308
+                    0x030a                  SPI1STATH = 0x30a
+                    0x030a                  _SPI1STATH = 0x30a
+                    0x030a                  _SPI1STATHbits = 0x30a
+                    0x030c                  SPI1BUFL = 0x30c
+                    0x030c                  _SPI1BUFL = 0x30c
+                    0x030c                  _SPI1BUFLbits = 0x30c
+                    0x030e                  SPI1BUFH = 0x30e
+                    0x030e                  _SPI1BUFH = 0x30e
+                    0x030e                  _SPI1BUFHbits = 0x30e
+                    0x0310                  SPI1BRGL = 0x310
+                    0x0310                  _SPI1BRGL = 0x310
+                    0x0310                  _SPI1BRGLbits = 0x310
+                    0x0312                  SPI1BRGH = 0x312
+                    0x0312                  _SPI1BRGH = 0x312
+                    0x0314                  SPI1IMSK1 = 0x314
+                    0x0314                  _SPI1IMSK1 = 0x314
+                    0x0314                  _SPI1IMSK1bits = 0x314
+                    0x0314                  SPI1IMSKL = 0x314
+                    0x0314                  _SPI1IMSKL = 0x314
+                    0x0314                  _SPI1IMSKLbits = 0x314
+                    0x0316                  SPI1IMSK2 = 0x316
+                    0x0316                  _SPI1IMSK2 = 0x316
+                    0x0316                  _SPI1IMSK2bits = 0x316
+                    0x0316                  SPI1IMSKH = 0x316
+                    0x0316                  _SPI1IMSKH = 0x316
+                    0x0316                  _SPI1IMSKHbits = 0x316
+                    0x0318                  SPI1URDTL = 0x318
+                    0x0318                  _SPI1URDTL = 0x318
+                    0x0318                  _SPI1URDTLbits = 0x318
+                    0x031a                  SPI1URDTH = 0x31a
+                    0x031a                  _SPI1URDTH = 0x31a
+                    0x031a                  _SPI1URDTHbits = 0x31a
+                    0x031c                  SPI2CON1 = 0x31c
+                    0x031c                  _SPI2CON1 = 0x31c
+                    0x031c                  _SPI2CON1bits = 0x31c
+                    0x031c                  SPI2CON1L = 0x31c
+                    0x031c                  _SPI2CON1L = 0x31c
+                    0x031c                  _SPI2CON1Lbits = 0x31c
+                    0x031e                  SPI2CON1H = 0x31e
+                    0x031e                  _SPI2CON1H = 0x31e
+                    0x031e                  _SPI2CON1Hbits = 0x31e
+                    0x031e                  SPI2CON2 = 0x31e
+                    0x031e                  _SPI2CON2 = 0x31e
+                    0x031e                  _SPI2CON2bits = 0x31e
+                    0x0320                  SPI2CON2L = 0x320
+                    0x0320                  _SPI2CON2L = 0x320
+                    0x0320                  _SPI2CON2Lbits = 0x320
+                    0x0320                  SPI2CON3 = 0x320
+                    0x0320                  _SPI2CON3 = 0x320
+                    0x0320                  _SPI2CON3bits = 0x320
+                    0x0322                  SPI2CON2H = 0x322
+                    0x0322                  _SPI2CON2H = 0x322
+                    0x0322                  SPI2CON4 = 0x322
+                    0x0322                  _SPI2CON4 = 0x322
+                    0x0324                  SPI2STATL = 0x324
+                    0x0324                  _SPI2STATL = 0x324
+                    0x0324                  _SPI2STATLbits = 0x324
+                    0x0326                  SPI2STATH = 0x326
+                    0x0326                  _SPI2STATH = 0x326
+                    0x0326                  _SPI2STATHbits = 0x326
+                    0x0328                  SPI2BUFL = 0x328
+                    0x0328                  _SPI2BUFL = 0x328
+                    0x0328                  _SPI2BUFLbits = 0x328
+                    0x032a                  SPI2BUFH = 0x32a
+                    0x032a                  _SPI2BUFH = 0x32a
+                    0x032a                  _SPI2BUFHbits = 0x32a
+                    0x032c                  SPI2BRGL = 0x32c
+                    0x032c                  _SPI2BRGL = 0x32c
+                    0x032c                  _SPI2BRGLbits = 0x32c
+                    0x032e                  SPI2BRGH = 0x32e
+                    0x032e                  _SPI2BRGH = 0x32e
+                    0x0330                  SPI2IMSK1 = 0x330
+                    0x0330                  _SPI2IMSK1 = 0x330
+                    0x0330                  _SPI2IMSK1bits = 0x330
+                    0x0330                  SPI2IMSKL = 0x330
+                    0x0330                  _SPI2IMSKL = 0x330
+                    0x0330                  _SPI2IMSKLbits = 0x330
+                    0x0332                  SPI2IMSK2 = 0x332
+                    0x0332                  _SPI2IMSK2 = 0x332
+                    0x0332                  _SPI2IMSK2bits = 0x332
+                    0x0332                  SPI2IMSKH = 0x332
+                    0x0332                  _SPI2IMSKH = 0x332
+                    0x0332                  _SPI2IMSKHbits = 0x332
+                    0x0334                  SPI2URDTL = 0x334
+                    0x0334                  _SPI2URDTL = 0x334
+                    0x0334                  _SPI2URDTLbits = 0x334
+                    0x0336                  SPI2URDTH = 0x336
+                    0x0336                  _SPI2URDTH = 0x336
+                    0x0336                  _SPI2URDTHbits = 0x336
+                    0x0338                  SPI3CON1 = 0x338
+                    0x0338                  _SPI3CON1 = 0x338
+                    0x0338                  _SPI3CON1bits = 0x338
+                    0x0338                  SPI3CON1L = 0x338
+                    0x0338                  _SPI3CON1L = 0x338
+                    0x0338                  _SPI3CON1Lbits = 0x338
+                    0x033a                  SPI3CON1H = 0x33a
+                    0x033a                  _SPI3CON1H = 0x33a
+                    0x033a                  _SPI3CON1Hbits = 0x33a
+                    0x033a                  SPI3CON2 = 0x33a
+                    0x033a                  _SPI3CON2 = 0x33a
+                    0x033a                  _SPI3CON2bits = 0x33a
+                    0x033c                  SPI3CON2L = 0x33c
+                    0x033c                  _SPI3CON2L = 0x33c
+                    0x033c                  _SPI3CON2Lbits = 0x33c
+                    0x033c                  SPI3CON3 = 0x33c
+                    0x033c                  _SPI3CON3 = 0x33c
+                    0x033c                  _SPI3CON3bits = 0x33c
+                    0x033e                  SPI3CON2H = 0x33e
+                    0x033e                  _SPI3CON2H = 0x33e
+                    0x033e                  SPI3CON4 = 0x33e
+                    0x033e                  _SPI3CON4 = 0x33e
+                    0x0340                  SPI3STATL = 0x340
+                    0x0340                  _SPI3STATL = 0x340
+                    0x0340                  _SPI3STATLbits = 0x340
+                    0x0342                  SPI3STATH = 0x342
+                    0x0342                  _SPI3STATH = 0x342
+                    0x0342                  _SPI3STATHbits = 0x342
+                    0x0344                  SPI3BUFL = 0x344
+                    0x0344                  _SPI3BUFL = 0x344
+                    0x0344                  _SPI3BUFLbits = 0x344
+                    0x0346                  SPI3BUFH = 0x346
+                    0x0346                  _SPI3BUFH = 0x346
+                    0x0346                  _SPI3BUFHbits = 0x346
+                    0x0348                  SPI3BRGL = 0x348
+                    0x0348                  _SPI3BRGL = 0x348
+                    0x0348                  _SPI3BRGLbits = 0x348
+                    0x034a                  SPI3BRGH = 0x34a
+                    0x034a                  _SPI3BRGH = 0x34a
+                    0x034c                  SPI3IMSK1 = 0x34c
+                    0x034c                  _SPI3IMSK1 = 0x34c
+                    0x034c                  _SPI3IMSK1bits = 0x34c
+                    0x034c                  SPI3IMSKL = 0x34c
+                    0x034c                  _SPI3IMSKL = 0x34c
+                    0x034c                  _SPI3IMSKLbits = 0x34c
+                    0x034e                  SPI3IMSK2 = 0x34e
+                    0x034e                  _SPI3IMSK2 = 0x34e
+                    0x034e                  _SPI3IMSK2bits = 0x34e
+                    0x034e                  SPI3IMSKH = 0x34e
+                    0x034e                  _SPI3IMSKH = 0x34e
+                    0x034e                  _SPI3IMSKHbits = 0x34e
+                    0x0350                  SPI3URDTL = 0x350
+                    0x0350                  _SPI3URDTL = 0x350
+                    0x0350                  _SPI3URDTLbits = 0x350
+                    0x0352                  SPI3URDTH = 0x352
+                    0x0352                  _SPI3URDTH = 0x352
+                    0x0352                  _SPI3URDTHbits = 0x352
+                    0x038c                  RPINR0 = 0x38c
+                    0x038c                  _RPINR0 = 0x38c
+                    0x038c                  _RPINR0bits = 0x38c
+                    0x038e                  RPINR1 = 0x38e
+                    0x038e                  _RPINR1 = 0x38e
+                    0x038e                  _RPINR1bits = 0x38e
+                    0x0390                  RPINR2 = 0x390
+                    0x0390                  _RPINR2 = 0x390
+                    0x0390                  _RPINR2bits = 0x390
+                    0x039a                  RPINR7 = 0x39a
+                    0x039a                  _RPINR7 = 0x39a
+                    0x039a                  _RPINR7bits = 0x39a
+                    0x039c                  RPINR8 = 0x39c
+                    0x039c                  _RPINR8 = 0x39c
+                    0x039c                  _RPINR8bits = 0x39c
+                    0x039e                  RPINR9 = 0x39e
+                    0x039e                  _RPINR9 = 0x39e
+                    0x039e                  _RPINR9bits = 0x39e
+                    0x03a2                  RPINR11 = 0x3a2
+                    0x03a2                  _RPINR11 = 0x3a2
+                    0x03a2                  _RPINR11bits = 0x3a2
+                    0x03ae                  RPINR17 = 0x3ae
+                    0x03ae                  _RPINR17 = 0x3ae
+                    0x03ae                  _RPINR17bits = 0x3ae
+                    0x03b0                  RPINR18 = 0x3b0
+                    0x03b0                  _RPINR18 = 0x3b0
+                    0x03b0                  _RPINR18bits = 0x3b0
+                    0x03b2                  RPINR19 = 0x3b2
+                    0x03b2                  _RPINR19 = 0x3b2
+                    0x03b2                  _RPINR19bits = 0x3b2
+                    0x03b4                  RPINR20 = 0x3b4
+                    0x03b4                  _RPINR20 = 0x3b4
+                    0x03b4                  _RPINR20bits = 0x3b4
+                    0x03b6                  RPINR21 = 0x3b6
+                    0x03b6                  _RPINR21 = 0x3b6
+                    0x03b6                  _RPINR21bits = 0x3b6
+                    0x03b8                  RPINR22 = 0x3b8
+                    0x03b8                  _RPINR22 = 0x3b8
+                    0x03b8                  _RPINR22bits = 0x3b8
+                    0x03ba                  RPINR23 = 0x3ba
+                    0x03ba                  _RPINR23 = 0x3ba
+                    0x03ba                  _RPINR23bits = 0x3ba
+                    0x03c2                  RPINR27 = 0x3c2
+                    0x03c2                  _RPINR27 = 0x3c2
+                    0x03c2                  _RPINR27bits = 0x3c2
+                    0x03c4                  RPINR28 = 0x3c4
+                    0x03c4                  _RPINR28 = 0x3c4
+                    0x03c4                  _RPINR28bits = 0x3c4
+                    0x03c6                  RPINR29 = 0x3c6
+                    0x03c6                  _RPINR29 = 0x3c6
+                    0x03c6                  _RPINR29bits = 0x3c6
+                    0x03c8                  RPINR30 = 0x3c8
+                    0x03c8                  _RPINR30 = 0x3c8
+                    0x03c8                  _RPINR30bits = 0x3c8
+                    0x03ca                  RPINR31 = 0x3ca
+                    0x03ca                  _RPINR31 = 0x3ca
+                    0x03ca                  _RPINR31bits = 0x3ca
+                    0x03d6                  RPOR0 = 0x3d6
+                    0x03d6                  _RPOR0 = 0x3d6
+                    0x03d6                  _RPOR0bits = 0x3d6
+                    0x03d8                  RPOR1 = 0x3d8
+                    0x03d8                  _RPOR1 = 0x3d8
+                    0x03d8                  _RPOR1bits = 0x3d8
+                    0x03da                  RPOR2 = 0x3da
+                    0x03da                  _RPOR2 = 0x3da
+                    0x03da                  _RPOR2bits = 0x3da
+                    0x03dc                  RPOR3 = 0x3dc
+                    0x03dc                  _RPOR3 = 0x3dc
+                    0x03dc                  _RPOR3bits = 0x3dc
+                    0x03de                  RPOR4 = 0x3de
+                    0x03de                  _RPOR4 = 0x3de
+                    0x03de                  _RPOR4bits = 0x3de
+                    0x03e0                  RPOR5 = 0x3e0
+                    0x03e0                  _RPOR5 = 0x3e0
+                    0x03e0                  _RPOR5bits = 0x3e0
+                    0x03e2                  RPOR6 = 0x3e2
+                    0x03e2                  _RPOR6 = 0x3e2
+                    0x03e2                  _RPOR6bits = 0x3e2
+                    0x03e4                  RPOR7 = 0x3e4
+                    0x03e4                  _RPOR7 = 0x3e4
+                    0x03e4                  _RPOR7bits = 0x3e4
+                    0x0450                  DMACON = 0x450
+                    0x0450                  _DMACON = 0x450
+                    0x0450                  _DMACONbits = 0x450
+                    0x0452                  DMABUF = 0x452
+                    0x0452                  _DMABUF = 0x452
+                    0x0454                  DMAL = 0x454
+                    0x0454                  _DMAL = 0x454
+                    0x0456                  DMAH = 0x456
+                    0x0456                  _DMAH = 0x456
+                    0x0458                  DMACH0 = 0x458
+                    0x0458                  _DMACH0 = 0x458
+                    0x0458                  _DMACH0bits = 0x458
+                    0x045a                  DMAINT0 = 0x45a
+                    0x045a                  _DMAINT0 = 0x45a
+                    0x045a                  _DMAINT0bits = 0x45a
+                    0x045c                  DMASRC0 = 0x45c
+                    0x045c                  _DMASRC0 = 0x45c
+                    0x045e                  DMADST0 = 0x45e
+                    0x045e                  _DMADST0 = 0x45e
+                    0x0460                  DMACNT0 = 0x460
+                    0x0460                  _DMACNT0 = 0x460
+                    0x0462                  DMACH1 = 0x462
+                    0x0462                  _DMACH1 = 0x462
+                    0x0462                  _DMACH1bits = 0x462
+                    0x0464                  DMAINT1 = 0x464
+                    0x0464                  _DMAINT1 = 0x464
+                    0x0464                  _DMAINT1bits = 0x464
+                    0x0466                  DMASRC1 = 0x466
+                    0x0466                  _DMASRC1 = 0x466
+                    0x0468                  DMADST1 = 0x468
+                    0x0468                  _DMADST1 = 0x468
+                    0x046a                  DMACNT1 = 0x46a
+                    0x046a                  _DMACNT1 = 0x46a
+                    0x046c                  DMACH2 = 0x46c
+                    0x046c                  _DMACH2 = 0x46c
+                    0x046c                  _DMACH2bits = 0x46c
+                    0x046e                  DMAINT2 = 0x46e
+                    0x046e                  _DMAINT2 = 0x46e
+                    0x046e                  _DMAINT2bits = 0x46e
+                    0x0470                  DMASRC2 = 0x470
+                    0x0470                  _DMASRC2 = 0x470
+                    0x0472                  DMADST2 = 0x472
+                    0x0472                  _DMADST2 = 0x472
+                    0x0474                  DMACNT2 = 0x474
+                    0x0474                  _DMACNT2 = 0x474
+                    0x0476                  DMACH3 = 0x476
+                    0x0476                  _DMACH3 = 0x476
+                    0x0476                  _DMACH3bits = 0x476
+                    0x0478                  DMAINT3 = 0x478
+                    0x0478                  _DMAINT3 = 0x478
+                    0x0478                  _DMAINT3bits = 0x478
+                    0x047a                  DMASRC3 = 0x47a
+                    0x047a                  _DMASRC3 = 0x47a
+                    0x047c                  DMADST3 = 0x47c
+                    0x047c                  _DMADST3 = 0x47c
+                    0x047e                  DMACNT3 = 0x47e
+                    0x047e                  _DMACNT3 = 0x47e
+                    0x0480                  DMACH4 = 0x480
+                    0x0480                  _DMACH4 = 0x480
+                    0x0480                  _DMACH4bits = 0x480
+                    0x0482                  DMAINT4 = 0x482
+                    0x0482                  _DMAINT4 = 0x482
+                    0x0482                  _DMAINT4bits = 0x482
+                    0x0484                  DMASRC4 = 0x484
+                    0x0484                  _DMASRC4 = 0x484
+                    0x0486                  DMADST4 = 0x486
+                    0x0486                  _DMADST4 = 0x486
+                    0x0488                  DMACNT4 = 0x488
+                    0x0488                  _DMACNT4 = 0x488
+                    0x048a                  DMACH5 = 0x48a
+                    0x048a                  _DMACH5 = 0x48a
+                    0x048a                  _DMACH5bits = 0x48a
+                    0x048c                  DMAINT5 = 0x48c
+                    0x048c                  _DMAINT5 = 0x48c
+                    0x048c                  _DMAINT5bits = 0x48c
+                    0x048e                  DMASRC5 = 0x48e
+                    0x048e                  _DMASRC5 = 0x48e
+                    0x0490                  DMADST5 = 0x490
+                    0x0490                  _DMADST5 = 0x490
+                    0x0492                  DMACNT5 = 0x492
+                    0x0492                  _DMACNT5 = 0x492
+                    0x0500                  U1MODE = 0x500
+                    0x0500                  _U1MODE = 0x500
+                    0x0500                  _U1MODEbits = 0x500
+                    0x0502                  U1STA = 0x502
+                    0x0502                  _U1STA = 0x502
+                    0x0502                  _U1STAbits = 0x502
+                    0x0504                  U1TXREG = 0x504
+                    0x0504                  _U1TXREG = 0x504
+                    0x0504                  _U1TXREGbits = 0x504
+                    0x0506                  U1RXREG = 0x506
+                    0x0506                  _U1RXREG = 0x506
+                    0x0508                  U1BRG = 0x508
+                    0x0508                  _U1BRG = 0x508
+                    0x050a                  U1ADMD = 0x50a
+                    0x050a                  _U1ADMD = 0x50a
+                    0x050a                  _U1ADMDbits = 0x50a
+                    0x050c                  U1SCCON = 0x50c
+                    0x050c                  _U1SCCON = 0x50c
+                    0x050c                  _U1SCCONbits = 0x50c
+                    0x050e                  U1SCINT = 0x50e
+                    0x050e                  _U1SCINT = 0x50e
+                    0x050e                  _U1SCINTbits = 0x50e
+                    0x0510                  U1GTC = 0x510
+                    0x0510                  _U1GTC = 0x510
+                    0x0510                  _U1GTCbits = 0x510
+                    0x0512                  U1WTCL = 0x512
+                    0x0512                  _U1WTCL = 0x512
+                    0x0512                  _U1WTCLbits = 0x512
+                    0x0514                  U1WTCH = 0x514
+                    0x0514                  _U1WTCH = 0x514
+                    0x0514                  _U1WTCHbits = 0x514
+                    0x0516                  U2MODE = 0x516
+                    0x0516                  _U2MODE = 0x516
+                    0x0516                  _U2MODEbits = 0x516
+                    0x0518                  U2STA = 0x518
+                    0x0518                  _U2STA = 0x518
+                    0x0518                  _U2STAbits = 0x518
+                    0x051a                  U2TXREG = 0x51a
+                    0x051a                  _U2TXREG = 0x51a
+                    0x051a                  _U2TXREGbits = 0x51a
+                    0x051c                  U2RXREG = 0x51c
+                    0x051c                  _U2RXREG = 0x51c
+                    0x051e                  U2BRG = 0x51e
+                    0x051e                  _U2BRG = 0x51e
+                    0x0520                  U2ADMD = 0x520
+                    0x0520                  _U2ADMD = 0x520
+                    0x0520                  _U2ADMDbits = 0x520
+                    0x0522                  U2SCCON = 0x522
+                    0x0522                  _U2SCCON = 0x522
+                    0x0522                  _U2SCCONbits = 0x522
+                    0x0524                  U2SCINT = 0x524
+                    0x0524                  _U2SCINT = 0x524
+                    0x0524                  _U2SCINTbits = 0x524
+                    0x0526                  U2GTC = 0x526
+                    0x0526                  _U2GTC = 0x526
+                    0x0526                  _U2GTCbits = 0x526
+                    0x0528                  U2WTCL = 0x528
+                    0x0528                  _U2WTCL = 0x528
+                    0x0528                  _U2WTCLbits = 0x528
+                    0x052a                  U2WTCH = 0x52a
+                    0x052a                  _U2WTCH = 0x52a
+                    0x052a                  _U2WTCHbits = 0x52a
+                    0x052c                  U3MODE = 0x52c
+                    0x052c                  _U3MODE = 0x52c
+                    0x052c                  _U3MODEbits = 0x52c
+                    0x052e                  U3STA = 0x52e
+                    0x052e                  _U3STA = 0x52e
+                    0x052e                  _U3STAbits = 0x52e
+                    0x0530                  U3TXREG = 0x530
+                    0x0530                  _U3TXREG = 0x530
+                    0x0530                  _U3TXREGbits = 0x530
+                    0x0532                  U3RXREG = 0x532
+                    0x0532                  _U3RXREG = 0x532
+                    0x0534                  U3BRG = 0x534
+                    0x0534                  _U3BRG = 0x534
+                    0x0536                  U3ADMD = 0x536
+                    0x0536                  _U3ADMD = 0x536
+                    0x0536                  _U3ADMDbits = 0x536
+                    0x0538                  U4MODE = 0x538
+                    0x0538                  _U4MODE = 0x538
+                    0x0538                  _U4MODEbits = 0x538
+                    0x053a                  U4STA = 0x53a
+                    0x053a                  _U4STA = 0x53a
+                    0x053a                  _U4STAbits = 0x53a
+                    0x053c                  U4TXREG = 0x53c
+                    0x053c                  _U4TXREG = 0x53c
+                    0x053c                  _U4TXREGbits = 0x53c
+                    0x053e                  U4RXREG = 0x53e
+                    0x053e                  _U4RXREG = 0x53e
+                    0x0540                  U4BRG = 0x540
+                    0x0540                  _U4BRG = 0x540
+                    0x0542                  U4ADMD = 0x542
+                    0x0542                  _U4ADMD = 0x542
+                    0x0542                  _U4ADMDbits = 0x542
+                    0x0760                  NVMCON = 0x760
+                    0x0760                  _NVMCON = 0x760
+                    0x0760                  _NVMCONbits = 0x760
+                    0x0766                  NVMKEY = 0x766
+                    0x0766                  _NVMKEY = 0x766
+                    0x02ae                  IC1 = 0x2ae
+                    0x02ae                  _IC1 = 0x2ae
+                    0x02b6                  IC2 = 0x2b6
+                    0x02b6                  _IC2 = 0x2b6
+                    0x02be                  IC3 = 0x2be
+                    0x02be                  _IC3 = 0x2be
+                    0x02c6                  IC4 = 0x2c6
+                    0x02c6                  _IC4 = 0x2c6
+                    0x02ce                  IC5 = 0x2ce
+                    0x02ce                  _IC5 = 0x2ce
+                    0x02d6                  IC6 = 0x2d6
+                    0x02d6                  _IC6 = 0x2d6
+                    0x0272                  OC1 = 0x272
+                    0x0272                  _OC1 = 0x272
+                    0x027c                  OC2 = 0x27c
+                    0x027c                  _OC2 = 0x27c
+                    0x0286                  OC3 = 0x286
+                    0x0286                  _OC3 = 0x286
+                    0x0290                  OC4 = 0x290
+                    0x0290                  _OC4 = 0x290
+                    0x029a                  OC5 = 0x29a
+                    0x029a                  _OC5 = 0x29a
+                    0x02a4                  OC6 = 0x2a4
+                    0x02a4                  _OC6 = 0x2a4
+                    0x0500                  UART1 = 0x500
+                    0x0500                  _UART1 = 0x500
+                    0x0516                  UART2 = 0x516
+                    0x0516                  _UART2 = 0x516
+                    0x052c                  UART3 = 0x52c
+                    0x052c                  _UART3 = 0x52c
+                    0x0538                  UART4 = 0x538
+                    0x0538                  _UART4 = 0x538
+START GROUP
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libm-elf.a
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a
+END GROUP
+OUTPUT(dist/default/production/lab03_template.X.production.elf elf32-pic30)
+LOAD jump_table
+LOAD default_isr
+LOAD data_init
+
+.debug_pubtypes
+                  0x0002c0       0x108e
+ .debug_pubtypes
+                  0x0002c0         0x30 build/default/production/src/app/taskBlinky.o
+ .debug_pubtypes
+                  0x0002f0         0x3c build/default/production/src/app/taskSerial.o
+ .debug_pubtypes
+                  0x00032c         0x4d build/default/production/src/app/taskPwm.o
+ .debug_pubtypes
+                  0x000379        0x120 build/default/production/FreeRTOS/Source/croutine.o
+ .debug_pubtypes
+                  0x000499         0xf3 build/default/production/FreeRTOS/Source/event_groups.o
+ .debug_pubtypes
+                  0x00058c         0x98 build/default/production/FreeRTOS/Source/list.o
+ .debug_pubtypes
+                  0x000624        0x1d5 build/default/production/FreeRTOS/Source/queue.o
+ .debug_pubtypes
+                  0x0007f9         0xf6 build/default/production/FreeRTOS/Source/stream_buffer.o
+ .debug_pubtypes
+                  0x0008ef        0x1b3 build/default/production/FreeRTOS/Source/tasks.o
+ .debug_pubtypes
+                  0x000aa2        0x1d4 build/default/production/FreeRTOS/Source/timers.o
+ .debug_pubtypes
+                  0x000c76         0x85 build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+ .debug_pubtypes
+                  0x000cfb        0x10c build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+ .debug_pubtypes
+                  0x000e07         0x4e build/default/production/mcc_generated_files/traps.o
+ .debug_pubtypes
+                  0x000e55         0x9f build/default/production/mcc_generated_files/pin_manager.o
+ .debug_pubtypes
+                  0x000ef4         0x42 build/default/production/mcc_generated_files/system.o
+ .debug_pubtypes
+                  0x000f36         0x2b build/default/production/mcc_generated_files/clock.o
+ .debug_pubtypes
+                  0x000f61         0x12 build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_pubtypes
+                  0x000f73         0x6b build/default/production/mcc_generated_files/uart1.o
+ .debug_pubtypes
+                  0x000fde         0x91 build/default/production/mcc_generated_files/oc3.o
+ .debug_pubtypes
+                  0x00106f         0x91 build/default/production/mcc_generated_files/oc2.o
+ .debug_pubtypes
+                  0x001100         0x91 build/default/production/mcc_generated_files/oc1.o
+ .debug_pubtypes
+                  0x001191         0x87 build/default/production/mcc_generated_files/tmr2.o
+ .debug_pubtypes
+                  0x001218         0xed build/default/production/src/main.o
+ .debug_pubtypes
+                  0x001305         0x49 build/default/production/src/rtos_hooks.o
+
+__c30_signature
+                  0x00134e        0x18c
+ __c30_signature
+                  0x00134e          0x6 build/default/production/src/app/taskBlinky.o
+ __c30_signature
+                  0x001354          0x6 build/default/production/src/app/taskSerial.o
+ __c30_signature
+                  0x00135a          0x6 build/default/production/src/app/taskPwm.o
+ __c30_signature
+                  0x001360          0x6 build/default/production/FreeRTOS/Source/croutine.o
+ __c30_signature
+                  0x001366          0x6 build/default/production/FreeRTOS/Source/event_groups.o
+ __c30_signature
+                  0x00136c          0x6 build/default/production/FreeRTOS/Source/list.o
+ __c30_signature
+                  0x001372          0x6 build/default/production/FreeRTOS/Source/queue.o
+ __c30_signature
+                  0x001378          0x6 build/default/production/FreeRTOS/Source/stream_buffer.o
+ __c30_signature
+                  0x00137e          0x6 build/default/production/FreeRTOS/Source/tasks.o
+ __c30_signature
+                  0x001384          0x6 build/default/production/FreeRTOS/Source/timers.o
+ __c30_signature
+                  0x00138a          0x6 build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+ __c30_signature
+                  0x001390          0x6 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+ __c30_signature
+                  0x001396          0x6 build/default/production/mcc_generated_files/traps.o
+ __c30_signature
+                  0x00139c          0x6 build/default/production/mcc_generated_files/pin_manager.o
+ __c30_signature
+                  0x0013a2          0x6 build/default/production/mcc_generated_files/system.o
+ __c30_signature
+                  0x0013a8          0x6 build/default/production/mcc_generated_files/clock.o
+ __c30_signature
+                  0x0013ae          0x6 build/default/production/mcc_generated_files/mcc.o
+ __c30_signature
+                  0x0013b4          0x6 build/default/production/mcc_generated_files/interrupt_manager.o
+ __c30_signature
+                  0x0013ba          0x6 build/default/production/mcc_generated_files/uart1.o
+ __c30_signature
+                  0x0013c0          0x6 build/default/production/mcc_generated_files/oc3.o
+ __c30_signature
+                  0x0013c6          0x6 build/default/production/mcc_generated_files/oc2.o
+ __c30_signature
+                  0x0013cc          0x6 build/default/production/mcc_generated_files/oc1.o
+ __c30_signature
+                  0x0013d2          0x6 build/default/production/mcc_generated_files/tmr2.o
+ __c30_signature
+                  0x0013d8          0x6 build/default/production/src/main.o
+ __c30_signature
+                  0x0013de          0x6 build/default/production/src/rtos_hooks.o
+ __c30_signature
+                  0x0013e4          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_extended24.o)
+ __c30_signature
+                  0x0013ea          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(data_init_24.o)
+ __c30_signature
+                  0x0013f0          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_dosux.DA_o)
+ __c30_signature
+                  0x0013f6          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__sio_printf_doux.DA_o)
+ __c30_signature
+                  0x0013fc          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcmp.DA_o)
+ __c30_signature
+                  0x001402          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memcpy.DA_o)
+ __c30_signature
+                  0x001408          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(memset.DA_o)
+ __c30_signature
+                  0x00140e          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(puts.DA_o)
+ __c30_signature
+                  0x001414          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.DA_o)
+ __c30_signature
+                  0x00141a          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_d.DA_o)
+ __c30_signature
+                  0x001420          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_o.DA_o)
+ __c30_signature
+                  0x001426          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_s.DA_o)
+ __c30_signature
+                  0x00142c          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_u.DA_o)
+ __c30_signature
+                  0x001432          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__fmt_x.DA_o)
+ __c30_signature
+                  0x001438          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vfprintf.DA_o)
+ __c30_signature
+                  0x00143e          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_init_needed.DA_o)
+ __c30_signature
+                  0x001444          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__out.DA_o)
+ __c30_signature
+                  0x00144a          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_int.DA_o)
+ __c30_signature
+                  0x001450          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_ptr.DA_o)
+ __c30_signature
+                  0x001456          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+ __c30_signature
+                  0x00145c          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__stdio_close.DA_o)
+ __c30_signature
+                  0x001462          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(atoi.DA_o)
+ __c30_signature
+                  0x001468          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fputs.DA_o)
+ __c30_signature
+                  0x00146e          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(fwrite.DA_o)
+ __c30_signature
+                  0x001474          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(lseek.DA_o)
+ __c30_signature
+                  0x00147a          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(putc.DA_o)
+ __c30_signature
+                  0x001480          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(strlen.DA_o)
+ __c30_signature
+                  0x001486          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(syscall_ret.DA_o)
+ __c30_signature
+                  0x00148c          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(tolower.DA_o)
+ __c30_signature
+                  0x001492          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(toupper.DA_o)
+ __c30_signature
+                  0x001498          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__errno_location.DA_o)
+ __c30_signature
+                  0x00149e          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__init_stdio.DA_o)
+ __c30_signature
+                  0x0014a4          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__io_file_needed.DA_o)
+ __c30_signature
+                  0x0014aa          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_float.DA_o)
+ __c30_signature
+                  0x0014b0          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(closeda.Meo)
+ __c30_signature
+                  0x0014b6          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(writeda.Meo)
+ __c30_signature
+                  0x0014bc          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(c30_uartda.Meo)
+ __c30_signature
+                  0x0014c2          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+ __c30_signature
+                  0x0014c8          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+ __c30_signature
+                  0x0014ce          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
+ __c30_signature
+                  0x0014d4          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.DA_o)
+
+__xc_reference_data
+
+.nbss               0x0800         0x50
+ .nbss              0x0800         0x22 build/default/production/FreeRTOS/Source/tasks.o
+                    0x0800                  _pxCurrentTCB
+ .nbss              0x0822         0x14 build/default/production/FreeRTOS/Source/croutine.o
+                    0x0826                  _pxCurrentCoRoutine
+ .nbss              0x0836          0xe build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+ .nbss              0x0844          0xc build/default/production/FreeRTOS/Source/timers.o
+
+.ndata              0x0850          0x4
+ .ndata             0x0850          0x2 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+                    0x0850                  _uxCriticalNesting
+ .ndata             0x0852          0x2 build/default/production/mcc_generated_files/traps.o
+
+.nbss               0x0854          0x6
+ .nbss              0x0854          0x2 build/default/production/mcc_generated_files/oc3.o
+ .nbss              0x0856          0x2 build/default/production/mcc_generated_files/oc2.o
+ .nbss              0x0858          0x2 build/default/production/mcc_generated_files/oc1.o
+
+.bss                0x085a        0xc60
+ .bss               0x085a        0xc00 build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+ .bss               0x145a         0x60 build/default/production/FreeRTOS/Source/tasks.o
+
+.data               0x14ba         0x42
+ .data              0x14ba         0x42 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(stdout.DA_o)
+                    0x14ba                  __stdout
+                    0x14bc                  ___stdout_used
+
+.bss                0x14fc         0x5c
+ .bss               0x14fc         0x3c build/default/production/FreeRTOS/Source/croutine.o
+ .bss               0x1538         0x20 build/default/production/mcc_generated_files/traps.o
+
+.data               0x1558         0x1e
+ .data              0x1558         0x1e c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+
+.bss                0x1576         0x1c
+ .bss               0x1576         0x18 build/default/production/FreeRTOS/Source/timers.o
+ .bss               0x158e          0x2 build/default/production/mcc_generated_files/tmr2.o
+ .bss               0x1590          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__errno_location.DA_o)
+                    0x1590                  ___errno_val
+
+.data               0x1592          0x2
+ .data              0x1592          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(c30_uartda.Meo)
+                    0x1592                  ___C30_UART
+
+.ivt._T1Interrupt
+                  0x00001a          0x2
+ .ivt._T1Interrupt
+                  0x00001a          0x2 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+
+.ivt._OscillatorFail
+                  0x000006          0x2
+ .ivt._OscillatorFail
+                  0x000006          0x2 build/default/production/mcc_generated_files/traps.o
+
+.ivt._StackError
+                  0x00000a          0x2
+ .ivt._StackError
+                  0x00000a          0x2 build/default/production/mcc_generated_files/traps.o
+
+.ivt._AddressError
+                  0x000008          0x2
+ .ivt._AddressError
+                  0x000008          0x2 build/default/production/mcc_generated_files/traps.o
+
+.ivt._MathError
+                  0x00000c          0x2
+ .ivt._MathError
+                  0x00000c          0x2 build/default/production/mcc_generated_files/traps.o
+
+.config_JTAGEN    0x0157fe          0x2
+ .config_JTAGEN
+                  0x0157fe          0x2 build/default/production/mcc_generated_files/system.o
+
+.config_IESO      0x0157fc          0x2
+ .config_IESO     0x0157fc          0x2 build/default/production/mcc_generated_files/system.o
+
+.config_WPEND     0x0157fa          0x2
+ .config_WPEND    0x0157fa          0x2 build/default/production/mcc_generated_files/system.o
+
+.config_IOL1WAY
+                  0x0157f8          0x2
+ .config_IOL1WAY
+                  0x0157f8          0x2 build/default/production/mcc_generated_files/system.o
+
+.const              0x9388         0x86 load address 0x001388  
+ .const             0x9388         0x34 build/default/production/src/app/taskSerial.o
+ .const             0x93bc         0x20 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+ .const             0x93dc         0x1c build/default/production/FreeRTOS/Source/tasks.o
+                    0x93dc                  _uxTopUsedPriority
+ .const             0x93f8          0x8 build/default/production/FreeRTOS/Source/timers.o
+ .const             0x9400          0x6 build/default/production/src/app/taskBlinky.o
+ .const             0x9406          0x6 build/default/production/src/app/taskPwm.o
+ .const             0x940c          0x2 build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+
+.text             0x00140e       0x4836
+ .text            0x00140e       0x18b0 build/default/production/FreeRTOS/Source/tasks.o
+                  0x00140e                  _xTaskCreate
+                  0x00160a                  _vTaskDelay
+                  0x00163c                  _eTaskGetState
+                  0x001684                  _uxTaskPriorityGet
+                  0x0016a6                  _uxTaskPriorityGetFromISR
+                  0x0016c8                  _vTaskPrioritySet
+                  0x0017ee                  _vTaskStartScheduler
+                  0x001836                  _vTaskEndScheduler
+                  0x00184e                  _vTaskSuspendAll
+                  0x00185a                  _xTaskResumeAll
+                  0x0019c4                  _xTaskGetTickCount
+                  0x0019d6                  _xTaskGetTickCountFromISR
+                  0x0019ec                  _uxTaskGetNumberOfTasks
+                  0x0019f4                  _pcTaskGetName
+                  0x001adc                  _xTaskGetHandle
+                  0x001b2c                  _xTaskCatchUpTicks
+                  0x001b52                  _xTaskAbortDelay
+                  0x001c06                  _xTaskIncrementTick
+                  0x001da8                  _vTaskSwitchContext
+                  0x001e2c                  _vTaskPlaceOnEventList
+                  0x001e4a                  _vTaskPlaceOnUnorderedEventList
+                  0x001ea4                  _vTaskPlaceOnEventListRestricted
+                  0x001efe                  _xTaskRemoveFromEventList
+                  0x002040                  _vTaskRemoveFromUnorderedEventList
+                  0x002142                  _vTaskSetTimeOutState
+                  0x00215e                  _vTaskInternalSetTimeOutState
+                  0x002176                  _xTaskCheckForTimeOut
+                  0x00220c                  _vTaskMissedYield
+                  0x002216                  build/default/production/FreeRTOS/Source/tasks.o:_prvIdleTask
+                  0x002288                  _xTaskGetCurrentTaskHandle
+                  0x002294                  _xTaskGetSchedulerState
+                  0x0022b8                  _xTaskPriorityInherit
+                  0x0023a0                  _xTaskPriorityDisinherit
+                  0x00245e                  _vTaskPriorityDisinheritAfterTimeout
+                  0x002542                  _uxTaskResetEventItemValue
+                  0x002566                  _pvTaskIncrementMutexHeldCount
+                  0x00257c                  _ulTaskGenericNotifyTake
+                  0x002616                  _xTaskGenericNotifyWait
+                  0x002706                  _xTaskGenericNotify
+                  0x00289a                  _xTaskGenericNotifyFromISR
+                  0x002a72                  _vTaskGenericNotifyGiveFromISR
+                  0x002bac                  _xTaskGenericNotifyStateClear
+                  0x002bec                  _ulTaskGenericNotifyValueClear
+ .text            0x002cbe        0xe26 build/default/production/FreeRTOS/Source/queue.o
+                  0x002cbe                  _xQueueGenericReset
+                  0x002d74                  _xQueueGenericCreate
+                  0x002e40                  _xQueueCreateMutex
+                  0x002e60                  _xQueueCreateCountingSemaphore
+                  0x002e94                  _xQueueGenericSend
+                  0x002fac                  _xQueueGenericSendFromISR
+                  0x003064                  _xQueueGiveFromISR
+                  0x0030fc                  _xQueueReceive
+                  0x0031e0                  _xQueueSemaphoreTake
+                  0x0032fa                  _xQueuePeek
+                  0x0033e2                  _xQueueReceiveFromISR
+                  0x003460                  _xQueuePeekFromISR
+                  0x003498                  _uxQueueMessagesWaiting
+                  0x0034ac                  _uxQueueSpacesAvailable
+                  0x0034ca                  _uxQueueMessagesWaitingFromISR
+                  0x0034de                  _vQueueDelete
+                  0x0036bc                  _xQueueIsQueueEmptyFromISR
+                  0x003700                  _xQueueIsQueueFullFromISR
+                  0x003724                  _xQueueCRSend
+                  0x0037d6                  _xQueueCRReceive
+                  0x0038b8                  _xQueueCRSendFromISR
+                  0x0038fa                  _xQueueCRReceiveFromISR
+                  0x00397a                  _vQueueWaitForMessageRestricted
+                  0x0039c4                  _xQueueCreateSet
+                  0x0039d8                  _xQueueAddToSet
+                  0x003a0e                  _xQueueRemoveFromSet
+                  0x003a4a                  _xQueueSelectFromSet
+                  0x003a66                  _xQueueSelectFromSetFromISR
+ .text            0x003ae4        0x712 build/default/production/FreeRTOS/Source/stream_buffer.o
+                  0x003ae4                  _xStreamBufferGenericCreate
+                  0x003b46                  _vStreamBufferDelete
+                  0x003b6c                  _xStreamBufferReset
+                  0x003bbe                  _xStreamBufferSetTriggerLevel
+                  0x003bf2                  _xStreamBufferSpacesAvailable
+                  0x003c30                  _xStreamBufferBytesAvailable
+                  0x003c44                  _xStreamBufferSend
+                  0x003d3c                  _xStreamBufferSendFromISR
+                  0x003e16                  _xStreamBufferReceive
+                  0x003ed4                  _xStreamBufferNextMessageLengthBytes
+                  0x003f1c                  _xStreamBufferReceiveFromISR
+                  0x003ffe                  _xStreamBufferIsEmpty
+                  0x004026                  _xStreamBufferIsFull
+                  0x004060                  _xStreamBufferSendCompletedFromISR
+                  0x00409c                  _xStreamBufferReceiveCompletedFromISR
+ .text            0x0041f6        0x612 build/default/production/FreeRTOS/Source/timers.o
+                  0x0041f6                  _xTimerCreateTimerTask
+                  0x00421a                  _xTimerCreate
+                  0x004298                  _xTimerGenericCommand
+                  0x0042fe                  _xTimerGetTimerDaemonTaskHandle
+                  0x004306                  _xTimerGetPeriod
+                  0x004318                  _vTimerSetReloadMode
+                  0x00434a                  _xTimerGetReloadMode
+                  0x004372                  _uxTimerGetReloadMode
+                  0x00437e                  _xTimerGetExpiryTime
+                  0x004398                  _pcTimerGetName
+                  0x00443c                  build/default/production/FreeRTOS/Source/timers.o:_prvTimerTask
+                  0x004748                  _xTimerIsTimerActive
+                  0x004770                  _pvTimerGetTimerID
+                  0x004788                  _vTimerSetTimerID
+                  0x0047a0                  _xTimerPendFunctionCallFromISR
+                  0x0047d2                  _xTimerPendFunctionCall
+ .text            0x004808        0x5bc build/default/production/FreeRTOS/Source/event_groups.o
+                  0x004808                  _xEventGroupCreate
+                  0x004828                  _xEventGroupSync
+                  0x0049a6                  _xEventGroupWaitBits
+                  0x004b18                  _xEventGroupClearBits
+                  0x004b5e                  _xEventGroupGetBitsFromISR
+                  0x004b7a                  _xEventGroupSetBits
+                  0x004d00                  _vEventGroupDelete
+                  0x004d2e                  _vEventGroupSetBitsCallback
+                  0x004d42                  _vEventGroupClearBitsCallback
+ .text            0x004dc4        0x37e build/default/production/FreeRTOS/Source/portable/GCC/MemMang/heap_4.o
+                  0x004dc4                  _pvPortMalloc
+                  0x004ebc                  _vPortFree
+                  0x004f0c                  _xPortGetFreeHeapSize
+                  0x004f14                  _xPortGetMinimumEverFreeHeapSize
+                  0x004f1c                  _vPortInitialiseBlocks
+                  0x004f22                  _pvPortCalloc
+                  0x0050be                  _vPortGetHeapStats
+ .text            0x005142        0x2fa build/default/production/FreeRTOS/Source/croutine.o
+                  0x005142                  _xCoRoutineCreate
+                  0x0051e2                  _vCoRoutineAddToDelayedList
+                  0x005360                  _vCoRoutineSchedule
+                  0x005404                  _xCoRoutineRemoveFromEventList
+ .text            0x00543c        0x14e build/default/production/src/app/taskSerial.o
+                  0x005452                  _taskSerial_init
+                  0x00545c                  build/default/production/src/app/taskSerial.o:_vAppTask
+ .text            0x00558a        0x13a build/default/production/FreeRTOS/Source/list.o
+                  0x00558a                  _vListInitialise
+                  0x0055c0                  _vListInitialiseItem
+                  0x0055ce                  _vListInsertEnd
+                  0x00560a                  _vListInsert
+                  0x00567c                  _uxListRemove
+ .text            0x0056c4        0x130 build/default/production/mcc_generated_files/oc3.o
+                  0x0056c4                  _OC3_Initialize
+                  0x0056e0                  _OC3_CallBack
+                  0x0056e6                  _OC3_Tasks
+                  0x0056fa                  _OC3_Start
+                  0x005714                  _OC3_Stop
+                  0x005722                  _OC3_SecondaryValueSet
+                  0x00572e                  _OC3_PrimaryValueSet
+                  0x00573a                  _OC3_IsCompareCycleComplete
+                  0x005752                  _OC3_FaultStatusGet
+                  0x0057a8                  _OC3_FaultStatusClear
+                  0x0057cc                  _OC3_ManualTriggerSet
+                  0x0057d4                  _OC3_TriggerStatusGet
+                  0x0057ec                  _OC3_TriggerStatusClear
+ .text            0x0057f4        0x130 build/default/production/mcc_generated_files/oc2.o
+                  0x0057f4                  _OC2_Initialize
+                  0x005810                  _OC2_CallBack
+                  0x005816                  _OC2_Tasks
+                  0x00582a                  _OC2_Start
+                  0x005844                  _OC2_Stop
+                  0x005852                  _OC2_SecondaryValueSet
+                  0x00585e                  _OC2_PrimaryValueSet
+                  0x00586a                  _OC2_IsCompareCycleComplete
+                  0x005882                  _OC2_FaultStatusGet
+                  0x0058d8                  _OC2_FaultStatusClear
+                  0x0058fc                  _OC2_ManualTriggerSet
+                  0x005904                  _OC2_TriggerStatusGet
+                  0x00591c                  _OC2_TriggerStatusClear
+ .text            0x005924        0x12e build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/port.o
+                  0x005924                  _pxPortInitialiseStack
+                  0x0059be                  _xPortStartScheduler
+                  0x0059ee                  _vPortEndScheduler
+                  0x0059f4                  _vApplicationSetupTickTimerInterrupt
+                  0x005a1c                  _vPortEnterCritical
+                  0x005a36                  _vPortExitCritical
+ .text            0x005a52        0x12e build/default/production/mcc_generated_files/oc1.o
+                  0x005a52                  _OC1_Initialize
+                  0x005a6e                  _OC1_CallBack
+                  0x005a74                  _OC1_Tasks
+                  0x005a86                  _OC1_Start
+                  0x005aa0                  _OC1_Stop
+                  0x005aae                  _OC1_SecondaryValueSet
+                  0x005aba                  _OC1_PrimaryValueSet
+                  0x005ac6                  _OC1_IsCompareCycleComplete
+                  0x005ade                  _OC1_FaultStatusGet
+                  0x005b34                  _OC1_FaultStatusClear
+                  0x005b58                  _OC1_ManualTriggerSet
+                  0x005b60                  _OC1_TriggerStatusGet
+                  0x005b78                  _OC1_TriggerStatusClear
+ .text            0x005b80         0xc4 build/default/production/mcc_generated_files/uart1.o
+                  0x005b80                  _UART1_Initialize
+                  0x005ba0                  _UART1_Read
+                  0x005bbe                  _UART1_Write
+                  0x005bd6                  _UART1_IsRxReady
+                  0x005bee                  _UART1_IsTxReady
+                  0x005c10                  _UART1_IsTxDone
+                  0x005c28                  _UART1_StatusGet
+                  0x005c30                  _UART1_Enable
+                  0x005c3a                  _UART1_Disable
+
+.dinit            0x005c44         0xba
+ .dinit           0x005c44         0xba data_init
+
+.text             0x005cfe        0x32c
+ .text            0x005cfe         0xb2 build/default/production/mcc_generated_files/tmr2.o
+                  0x005cfe                  _TMR2_Initialize
+                  0x005d14                  _TMR2_Tasks_16BitOperation
+                  0x005d36                  _TMR2_Period16BitSet
+                  0x005d48                  _TMR2_Period16BitGet
+                  0x005d50                  _TMR2_Counter16BitSet
+                  0x005d62                  _TMR2_Counter16BitGet
+                  0x005d6a                  _TMR2_Start
+                  0x005d78                  _TMR2_Stop
+                  0x005d80                  _TMR2_GetElapsedThenClear
+                  0x005d98                  _TMR2_SoftwareCounterGet
+                  0x005da4                  _TMR2_SoftwareCounterClear
+ .text            0x005db0         0x84 build/default/production/mcc_generated_files/pin_manager.o
+                  0x005db0                  _PIN_MANAGER_Initialize
+ .text            0x005e34         0x80 build/default/production/src/app/taskPwm.o
+                  0x005e4a                  _taskPwm_init
+                  0x005e54                  build/default/production/src/app/taskPwm.o:_vAppTask
+ .text            0x005eb4         0x56 build/default/production/src/main.o
+                  0x005eb4                  _main
+                  0x005ec2                  build/default/production/src/main.o:_prvMainCoRoutine
+ .text            0x005f0a         0x54 build/default/production/FreeRTOS/Source/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.o
+                  0x005f0a                  _vPortYield
+ .text            0x005f5e         0x3c build/default/production/mcc_generated_files/clock.o
+                  0x005f5e                  _CLOCK_Initialize
+ .text            0x005f9a         0x30 build/default/production/src/rtos_hooks.o
+                  0x005f9a                  _vApplicationIdleHook
+                  0x005fa2                  _vApplicationStackOverflowHook
+                  0x005fb8                  _vApplicationMallocFailedHook
+ .text            0x005fca         0x2c build/default/production/src/app/taskBlinky.o
+                  0x005fe0                  _taskBlinky_init
+                  0x005fea                  build/default/production/src/app/taskBlinky.o:_vAppTask
+ .text            0x005ff6         0x18 build/default/production/mcc_generated_files/traps.o
+                  0x005ff6                  _TRAPS_halt_on_error
+ .text            0x00600e         0x16 build/default/production/mcc_generated_files/system.o
+                  0x00600e                  _SYSTEM_Initialize
+ .text            0x006024          0x6 build/default/production/mcc_generated_files/interrupt_manager.o
+                  0x006024                  _INTERRUPT_Initialize
