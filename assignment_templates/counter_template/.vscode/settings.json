@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "counter.h": "c",
+        "soft_pwm.h": "c"
+    }
+}
