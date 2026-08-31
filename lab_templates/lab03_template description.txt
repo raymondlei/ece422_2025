@@ -1,0 +1,20 @@
+This template configured the following pins and peripherals:
+
+RB10: OC1 output, for LED
+RB11: OC2 output, for LED
+RB12: OC3 output, for LED
+
+Program behavior:
+1. LED at full brightness upon MCU reset
+2. LED intensity dims linearly
+3. LED reaches minimum brightness
+4. repeat step 1.
+
+-------------------------------
+*** Pins not yet configured ***
+-------------------------------
+RB5: GPIO input, for button, active low
+
+RB2: UART peripheral, UART_RX (receive)
+RB3: UART peripheral, UART_TX (transmit)
+UART baudrate: 19200
