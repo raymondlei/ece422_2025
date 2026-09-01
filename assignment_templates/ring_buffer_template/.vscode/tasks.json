@@ -7,16 +7,15 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-I${workspaceFolder}",
+                "-I${workspaceFolder}\\ring_buffer",
                 "${workspaceFolder}\\*.c",
                 "${workspaceFolder}\\ring_buffer\\*.c",
-                "${workspaceFolder}\\ring_buffer\\*.h",
-                "${workspaceFolder}\\utilities\\*.c",
-                "${workspaceFolder}\\utilities\\*.h",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}\\main.exe"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"
