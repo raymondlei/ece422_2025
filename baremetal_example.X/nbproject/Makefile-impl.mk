@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=baremetal_template.X
+PROJECTNAME=baremetal_example.X
 
 # Active Configuration
 DEFAULTCONF=default

@@ -7,7 +7,7 @@ Command:
   -p24FJ256GA702 \
   --mdfp=C:/Program Files/Microchip/MPLABX/v6.35/packs/Microchip/PIC24F-GA-GB_DFP/1.11.479/xc16 \
   -o \
-  dist/default/production/baremetal_template.X.production.elf \
+  dist/default/production/baremetal_example.X.production.elf \
   -Lc:/program files/microchip/xc16/v2.10/bin/bin/.. \
   -LC:/Program Files/Microchip/MPLABX/v6.35/packs/Microchip/PIC24F-GA-GB_DFP/1.11.479/xc16/bin/../support/PIC24F/gld \
   -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../lib \
@@ -24,9 +24,9 @@ Command:
   build/default/production/mcc_generated_files/mcc.o \
   build/default/production/mcc_generated_files/system.o \
   build/default/production/mcc_generated_files/clock.o \
-  build/default/production/main.o \
   build/default/production/mcc_generated_files/pin_manager.o \
   build/default/production/mcc_generated_files/uart1.o \
+  build/default/production/main.o \
   --local-stack \
   --defsym=__MPLAB_BUILD=1 \
   -Tp24FJ256GA702.gld.00 \
@@ -41,7 +41,7 @@ Command:
   --stackguard=16 \
   --no-force-link \
   --smart-io \
-  -Map=dist/default/production/baremetal_template.X.production.map \
+  -Map=dist/default/production/baremetal_example.X.production.map \
   --report-mem \
   --memorysummary \
   dist/default/production/memoryfile.xml \
@@ -211,9 +211,9 @@ LOAD build/default/production/mcc_generated_files/where_was_i.o
 LOAD build/default/production/mcc_generated_files/mcc.o
 LOAD build/default/production/mcc_generated_files/system.o
 LOAD build/default/production/mcc_generated_files/clock.o
-LOAD build/default/production/main.o
 LOAD build/default/production/mcc_generated_files/pin_manager.o
 LOAD build/default/production/mcc_generated_files/uart1.o
+LOAD build/default/production/main.o
                     0x0001                  __MPLAB_BUILD = 0x1
 LOAD pPIC24Fxxx
 LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libfx-elf.a
@@ -302,16 +302,16 @@ __FDEVOPT1
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x1db8
+.debug_info       0x000000       0x1da8
  *(.debug_info)
- .debug_info      0x000000        0x173 build/default/production/mcc_generated_files/interrupt_manager.o
- .debug_info      0x000173        0x44a build/default/production/mcc_generated_files/traps.o
- .debug_info      0x0005bd         0xaa build/default/production/mcc_generated_files/where_was_i.o
- .debug_info      0x000667        0x33f build/default/production/mcc_generated_files/system.o
- .debug_info      0x0009a6        0x37d build/default/production/mcc_generated_files/clock.o
- .debug_info      0x000d23        0x454 build/default/production/main.o
- .debug_info      0x001177        0x41b build/default/production/mcc_generated_files/pin_manager.o
- .debug_info      0x001592        0x826 build/default/production/mcc_generated_files/uart1.o
+ .debug_info      0x000000        0x171 build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_info      0x000171        0x448 build/default/production/mcc_generated_files/traps.o
+ .debug_info      0x0005b9         0xa8 build/default/production/mcc_generated_files/where_was_i.o
+ .debug_info      0x000661        0x33d build/default/production/mcc_generated_files/system.o
+ .debug_info      0x00099e        0x37b build/default/production/mcc_generated_files/clock.o
+ .debug_info      0x000d19        0x419 build/default/production/mcc_generated_files/pin_manager.o
+ .debug_info      0x001132        0x824 build/default/production/mcc_generated_files/uart1.o
+ .debug_info      0x001956        0x452 build/default/production/main.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0x4a6
@@ -322,9 +322,9 @@ __FDEVOPT1
  .debug_abbrev    0x000148          0x1 build/default/production/mcc_generated_files/mcc.o
  .debug_abbrev    0x000149         0xb4 build/default/production/mcc_generated_files/system.o
  .debug_abbrev    0x0001fd         0x6a build/default/production/mcc_generated_files/clock.o
- .debug_abbrev    0x000267         0x8c build/default/production/main.o
- .debug_abbrev    0x0002f3         0x9b build/default/production/mcc_generated_files/pin_manager.o
- .debug_abbrev    0x00038e        0x118 build/default/production/mcc_generated_files/uart1.o
+ .debug_abbrev    0x000267         0x9b build/default/production/mcc_generated_files/pin_manager.o
+ .debug_abbrev    0x000302        0x118 build/default/production/mcc_generated_files/uart1.o
+ .debug_abbrev    0x00041a         0x8c build/default/production/main.o
 
 .debug_line       0x000000        0x7f1
  *(.debug_line)
@@ -334,9 +334,9 @@ __FDEVOPT1
  .debug_line      0x0001fc         0x1a build/default/production/mcc_generated_files/mcc.o
  .debug_line      0x000216        0x120 build/default/production/mcc_generated_files/system.o
  .debug_line      0x000336        0x12c build/default/production/mcc_generated_files/clock.o
- .debug_line      0x000462        0x10d build/default/production/main.o
- .debug_line      0x00056f        0x132 build/default/production/mcc_generated_files/pin_manager.o
- .debug_line      0x0006a1        0x150 build/default/production/mcc_generated_files/uart1.o
+ .debug_line      0x000462        0x132 build/default/production/mcc_generated_files/pin_manager.o
+ .debug_line      0x000594        0x150 build/default/production/mcc_generated_files/uart1.o
+ .debug_line      0x0006e4        0x10d build/default/production/main.o
 
 .debug_frame      0x000000        0x396
  *(.debug_frame)
@@ -344,18 +344,18 @@ __FDEVOPT1
  .debug_frame     0x00002e        0x17e build/default/production/mcc_generated_files/traps.o
  .debug_frame     0x0001ac         0x2e build/default/production/mcc_generated_files/system.o
  .debug_frame     0x0001da         0x2e build/default/production/mcc_generated_files/clock.o
- .debug_frame     0x000208         0x2e build/default/production/main.o
- .debug_frame     0x000236         0x2e build/default/production/mcc_generated_files/pin_manager.o
- .debug_frame     0x000264        0x132 build/default/production/mcc_generated_files/uart1.o
+ .debug_frame     0x000208         0x2e build/default/production/mcc_generated_files/pin_manager.o
+ .debug_frame     0x000236        0x132 build/default/production/mcc_generated_files/uart1.o
+ .debug_frame     0x000368         0x2e build/default/production/main.o
 
 .debug_str        0x000000         0x74
  *(.debug_str)
  .debug_str       0x000000         0x18 build/default/production/mcc_generated_files/traps.o
  .debug_str       0x000018          0xc build/default/production/mcc_generated_files/system.o
  .debug_str       0x000024         0x12 build/default/production/mcc_generated_files/clock.o
- .debug_str       0x000036         0x13 build/default/production/main.o
- .debug_str       0x000049         0x16 build/default/production/mcc_generated_files/pin_manager.o
- .debug_str       0x00005f         0x15 build/default/production/mcc_generated_files/uart1.o
+ .debug_str       0x000036         0x16 build/default/production/mcc_generated_files/pin_manager.o
+ .debug_str       0x00004c         0x15 build/default/production/mcc_generated_files/uart1.o
+ .debug_str       0x000061         0x13 build/default/production/main.o
 
 .debug_loc
  *(.debug_loc)
@@ -375,11 +375,11 @@ __FDEVOPT1
  .debug_pubnames
                   0x0000d0         0x27 build/default/production/mcc_generated_files/clock.o
  .debug_pubnames
-                  0x0000f7         0x1b build/default/production/main.o
+                  0x0000f7         0x2d build/default/production/mcc_generated_files/pin_manager.o
  .debug_pubnames
-                  0x000112         0x2d build/default/production/mcc_generated_files/pin_manager.o
+                  0x000124         0xea build/default/production/mcc_generated_files/uart1.o
  .debug_pubnames
-                  0x00013f         0xea build/default/production/mcc_generated_files/uart1.o
+                  0x00020e         0x1b build/default/production/main.o
 
 .debug_ranges
  *(.debug_ranges)
@@ -397,11 +397,11 @@ __FDEVOPT1
  .debug_aranges
                   0x000068         0x18 build/default/production/mcc_generated_files/clock.o
  .debug_aranges
-                  0x000080         0x18 build/default/production/main.o
+                  0x000080         0x18 build/default/production/mcc_generated_files/pin_manager.o
  .debug_aranges
-                  0x000098         0x18 build/default/production/mcc_generated_files/pin_manager.o
+                  0x000098         0x18 build/default/production/mcc_generated_files/uart1.o
  .debug_aranges
-                  0x0000b0         0x18 build/default/production/mcc_generated_files/uart1.o
+                  0x0000b0         0x18 build/default/production/main.o
                     0x0000                  WREG0 = 0x0
                     0x0000                  _WREG0 = 0x0
                     0x0002                  WREG1 = 0x2
@@ -1738,7 +1738,7 @@ LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a
 LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libm-elf.a
 LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a
 END GROUP
-OUTPUT(dist/default/production/baremetal_template.X.production.elf elf32-pic30)
+OUTPUT(dist/default/production/baremetal_example.X.production.elf elf32-pic30)
 LOAD /CW/_FSEC
 LOAD default_isr
 LOAD data_init
@@ -1754,11 +1754,11 @@ LOAD data_init
  .debug_pubtypes
                   0x00018d         0x2b build/default/production/mcc_generated_files/clock.o
  .debug_pubtypes
-                  0x0001b8         0x5b build/default/production/main.o
+                  0x0001b8         0x61 build/default/production/mcc_generated_files/pin_manager.o
  .debug_pubtypes
-                  0x000213         0x61 build/default/production/mcc_generated_files/pin_manager.o
+                  0x000219         0x7c build/default/production/mcc_generated_files/uart1.o
  .debug_pubtypes
-                  0x000274         0x7c build/default/production/mcc_generated_files/uart1.o
+                  0x000295         0x5b build/default/production/main.o
 
 __c30_signature
                   0x0002f0         0x3c
@@ -1773,11 +1773,11 @@ __c30_signature
  __c30_signature
                   0x000308          0x6 build/default/production/mcc_generated_files/clock.o
  __c30_signature
-                  0x00030e          0x6 build/default/production/main.o
+                  0x00030e          0x6 build/default/production/mcc_generated_files/pin_manager.o
  __c30_signature
-                  0x000314          0x6 build/default/production/mcc_generated_files/pin_manager.o
+                  0x000314          0x6 build/default/production/mcc_generated_files/uart1.o
  __c30_signature
-                  0x00031a          0x6 build/default/production/mcc_generated_files/uart1.o
+                  0x00031a          0x6 build/default/production/main.o
  __c30_signature
                   0x000320          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_extended24.o)
  __c30_signature
