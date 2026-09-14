@@ -1,2 +1,4 @@
+*.o
+
 .generated_files/
 build/
