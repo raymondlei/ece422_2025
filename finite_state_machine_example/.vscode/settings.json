@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "counter.h": "c",
+        "fsm.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}\\app_main",
+        "${workspaceFolder}\\counter",
+        "${workspaceFolder}\\unit_test"
+    ],
+    "makefile.makePath": "C:\\msys64\\usr\\bin\\make.exe"
+}
+

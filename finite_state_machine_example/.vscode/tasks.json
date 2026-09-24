@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "prepare build directory",
+            "type": "process",
+            "command": "powershell.exe",
+            "args": [
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-Command",
+                "New-Item -ItemType Directory -Force '${workspaceFolder}\\build' | Out-Null"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "C/C++: gcc.exe build active file",
+            "type": "process",
+            "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+            "args": [
+                "-g",
+                "-Og",
+                "-Wall",
+                "-Wextra",
+                "-std=c11",
+                "-I${workspaceFolder}\\app_main",
+                "-I${workspaceFolder}\\counter",
+                "-I${workspaceFolder}\\unit_test",
+                "${workspaceFolder}\\main.c",
+                "${workspaceFolder}\\app_main\\fsm_exception.c",
+                "${workspaceFolder}\\app_main\\fsm_idle.c",
+                "${workspaceFolder}\\app_main\\fsm_init.c",
+                "${workspaceFolder}\\app_main\\fsm_led_playback.c",
+                "${workspaceFolder}\\app_main\\fsm_main.c",
+                "${workspaceFolder}\\app_main\\fsm_user_input.c",
+                "${workspaceFolder}\\counter\\counter.c",
+                "-o",
+                "${workspaceFolder}\\build\\main.exe"
+            ],
+            "dependsOn": "prepare build directory",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build the complete project with debug symbols and output to the build folder."
+        }
+    ]
+}
