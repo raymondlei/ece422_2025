@@ -1,11 +1,13 @@
-import unittest
 import sys
-import os
+import unittest
+from pathlib import Path
 
-# Add the parent directory to the Python path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+if __name__ == "__main__" and not __package__:
+    # Direct execution needs the parent directory containing the datapack package.
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from datapack import DataPackingCore, DataUnpackingCore
+from datapack.pack import DataPackingCore
+from datapack.unpack import DataUnpackingCore
 
 single_test_vectors = [
     # None
