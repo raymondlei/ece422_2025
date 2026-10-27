@@ -4,8 +4,8 @@ from dataclasses import dataclass
 
 import serial
 
-from data_serialization_complete.datapack.pack import DataPackingCore
-from data_serialization_complete.datapack.unpack import DataUnpackingCore
+from datapack.pack import DataPackingCore
+from datapack.unpack import DataUnpackingCore
 from .serial_data_handler import SerialDataPacket
 
 
